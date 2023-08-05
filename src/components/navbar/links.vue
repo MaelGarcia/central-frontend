@@ -25,7 +25,7 @@ except according to the terms contained in the LICENSE file.
     <li v-if="canRoute('/system/audits')"
       :class="{ active: routePathStartsWith('/system') }">
       <router-link to="/system/audits">
-        {{ $t('common.system') }} <span class="sr-only">{{ $t('current') }}</span>
+        {{ $t('common.system') }} <span class="sr-only">{{ $t('current') }} pedro</span>
       </router-link>
     </li>
   </ul>
