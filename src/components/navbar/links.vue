@@ -16,6 +16,11 @@ except according to the terms contained in the LICENSE file.
         {{ $t('resource.projects') }} <span class="sr-only">{{ $t('current') }}</span>
       </router-link>
     </li>
+     <li>
+      <router-link to="/">
+        <span>Limites</span>
+      </router-link>
+    </li>
     <li v-if="canRoute('/users')" id="navbar-links-users"
       :class="{ active: routePathStartsWith('/users') }">
       <router-link to="/users">

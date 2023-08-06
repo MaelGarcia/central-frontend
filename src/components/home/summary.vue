@@ -15,7 +15,8 @@ except according to the terms contained in the LICENSE file.
       <loading :state="projects.initiallyLoading"/>
       <home-summary-item v-if="projects.dataExists" icon="archive"
         :count="projects.length">
-        <template #title>{{ $tc('plural.project', projects.length) }}</template>
+        <!-- <template #title>{{ $tc('plural.project', projects.length) }}</template> -->
+        <template #title> Example </template>
         <template #body>{{ $t('projects.body') }}</template>
       </home-summary-item>
     </div>
