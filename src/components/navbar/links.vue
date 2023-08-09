@@ -21,16 +21,22 @@ except according to the terms contained in the LICENSE file.
         <span>Limites</span>
       </router-link>
     </li>
-    <li v-if="canRoute('/users')" id="navbar-links-users"
+     <li v-if="canRoute('/users')" id="navbar-links-users"
       :class="{ active: routePathStartsWith('/users') }">
       <router-link to="/users">
         {{ $t('resource.users') }} <span class="sr-only">{{ $t('current') }}</span>
       </router-link>
     </li>
+    <li v-if="canRoute('/config')" 
+      :class="{ active: routePathStartsWith('/config') }">
+      <router-link to="/config">
+        <span>Configuracion</span>
+      </router-link>
+    </li>
     <li v-if="canRoute('/system/audits')"
       :class="{ active: routePathStartsWith('/system') }">
       <router-link to="/system/audits">
-        {{ $t('common.system') }} <span class="sr-only">{{ $t('current') }} pedro</span>
+        {{ $t('common.system') }} <span class="sr-only">{{ $t('current') }}</span>
       </router-link>
     </li>
   </ul>

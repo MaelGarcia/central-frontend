@@ -620,6 +620,15 @@ const routes = [
   }),
 
   asyncRoute({
+    path: '/config',
+    component: 'Configuracion',
+    loading: 'page',
+    meta: {
+      title: () => [i18n.t('title.editProfile')]
+    }
+  }),
+
+  asyncRoute({
     path: '/system',
     component: 'SystemHome',
     loading: 'page',
