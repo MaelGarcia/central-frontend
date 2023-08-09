@@ -4,8 +4,13 @@
 <script>
 export default {
   name: 'Configuracion',
-  setup() {
-    msj:"hola";
+  data() {
+    return {
+      msj: 'hola'
+    };
+  },
+  mounted() {
+    console.log("configuracion");
   },
   computed: {
     
