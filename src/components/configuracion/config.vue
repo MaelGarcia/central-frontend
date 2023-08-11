@@ -21,11 +21,11 @@
         </tr>
       </thead>
       <tbody>
-        <tr class="user-row">
+        <tr class="user-row" v-for="f of listaFormularios" :key="f.id">
           <td class="display-name">
-            formulario 1
+            {{ f.id }}
           </td>
-          <td class="email"><span>10</span></td>
+          <td class="email"><span>{{ f.permitidos }}</span></td>
           <td class="user-role">
             opciomes
           </td>
@@ -42,7 +42,8 @@ export default {
   data() {
     return {
       msj: 'hola',
-      estatusmodal: false
+      estatusmodal: false,
+      listaFormularios:[]
     };
   },
   mounted() {
@@ -57,10 +58,12 @@ export default {
       this.estatusmodal = estatus;
     },
     fetchData() {
-      axios.get('https://greatdevservice.ddns.net/v1/formulariosAll')
+      axios.get('https://greatdevservice.ddns.net/v1/users/formulariosAll')
       .then(response => 
-      (console.log(response),
-      console.log("respuesta")
+      (
+        console.log(response),
+        this.listaFormularios = response
+      
       ))
     },
   }
