@@ -61,8 +61,8 @@ export default {
       axios.get('https://greatdevservice.ddns.net/v1/users/formulariosAll')
       .then(response => 
       (
-        console.log(response),
-        this.listaFormularios = response.data
+        console.log(response.data),
+        this.listaFormularios = response.data[0]
       
       ))
     },
