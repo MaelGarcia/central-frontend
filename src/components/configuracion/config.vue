@@ -23,7 +23,7 @@
       <tbody>
         <tr class="user-row" v-for="f of listaFormularios" :key="f.id">
           <td class="display-name">
-            {{ f.id }}
+            {{ f.xmlFormId }}
           </td>
           <td class="email"><span>{{ f.permitidos }}</span></td>
           <td class="user-role">
@@ -62,7 +62,7 @@ export default {
       .then(response => 
       (
         console.log(response),
-        this.listaFormularios = response
+        this.listaFormularios = response.data
       
       ))
     },
