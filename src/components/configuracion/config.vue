@@ -1,15 +1,20 @@
 <template>
   <div>
     <div class="heading-with-button">
-      <button id="user-list-new-button" type="button" class="btn btn-primary" @click="modal(true)">
+      <!-- <button id="user-list-new-button" type="button" class="btn btn-primary" @click="modal(true)">
         <span>Nuevo registro</span>
-      </button>
+      </button> -->
       Formularios con limite
     </div>
     <div v-if="estatusmodal">
-      <h3>aqui formulario</h3>
+      <h3>Formulario: {{ dataFormulario.xmlFormId }}</h3>
+      <h1 v-if="msjError != null">{{ msjError }}</h1>
+      <input type="text" v-model="dataFormulario.permitidos" class="form-control">
       <button id="user-list-new-button" type="button" class="btn btn-primary" @click="modal(false)">
         <span>Cancelar</span>
+      </button>
+      <button  type="button" class="btn btn-primary" @click="guardar()">
+        <span>Guardar</span>
       </button>
     </div>
     <table id="user-list-table" class="table">
@@ -27,7 +32,9 @@
           </td>
           <td class="email"><span>{{ f.permitidos }}</span></td>
           <td class="user-role">
-            opciomes
+            <button id="user-list-new-button" type="button" class="btn btn-primary" @click="editar(f)">
+              <span>Editar</span>
+            </button>
           </td>
         </tr>
       </tbody>
@@ -43,7 +50,9 @@ export default {
     return {
       msj: 'hola',
       estatusmodal: false,
-      listaFormularios:[]
+      listaFormularios:[],
+      dataFormulario:{},
+      msjError:null,
     };
   },
   mounted() {
@@ -56,6 +65,26 @@ export default {
   methods: {
     modal(estatus) {
       this.estatusmodal = estatus;
+    },
+    editar(params){
+      this.dataFormulario = {}
+      this.modal = true;
+      this.dataFormulario = params
+      this.msjError = null
+    },
+    update(){
+      if(this.dataFormulario.permitidos <= 0){ return this.msjError = "El valor debe ser mayor a 0" }
+      axios.get(`https://greatdevservice.ddns.net/v1/users/formularios/${this.dataFormulario.id}/${this.dataFormulario.permitidos}`) 
+      .then(response => 
+      (
+        console.log("update"),
+        console.log(response.data),
+        this.dataFormulario = {},
+        this.modal = false,
+        this.dataFormulario = {},
+        this.msjError = null
+      
+      ))
     },
     fetchData() {
       axios.get('https://greatdevservice.ddns.net/v1/users/formulariosAll')
