@@ -665,21 +665,21 @@
     "clickHere": {
       "full": {
         "string": "さらに詳細を表示するには、{clickHere}して下さい。",
-        "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nclick here"
+        "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nclick here"
       },
       "clickHere": {
         "string": "こちらをクリック",
-        "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nFor more information, {clickHere}."
+        "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nFor more information, {clickHere}."
       }
     },
     "helpArticle": {
       "full": {
         "string": "さらに詳細を表示するには、{helpArticle}を参照して下さい。",
-        "developer_comment": "{helpArticle} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nthis help article"
+        "developer_comment": "{helpArticle} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nthis help article"
       },
       "helpArticle": {
         "string": "こちらのヘルプ",
-        "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {helpArticle} is in the following text:\n\nFor more information, please see {helpArticle}."
+        "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {helpArticle} is in the following text:\n\nFor more information, please see {helpArticle}."
       }
     },
     "learnMore": {
@@ -689,16 +689,16 @@
   },
   "analytics": {
     "alwaysImprove": {
-      "string": "私たちは常にODK Centralを改良しようとしています。"
+      "string": "私たちは常にConectadosを改良しようとしています。"
     },
     "needFeedback": {
       "full": {
         "string": "そのために、私たちは{your}フィードバックが必要です。それによりあなたがどの様にCentralを使い、またどの様にすればあなたにとって良くなるのかが分かります。",
-        "developer_comment": "\"This\" refers to improving Central.\n\n{your} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nyour"
+        "developer_comment": "\"This\" refers to improving Central.\n\n{your} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nyour"
       },
       "your": {
         "string": "あなたの",
-        "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {your} is in the following text:\n\nTo do this, we need {your} feedback, so that we can understand how you are using Central, and how it could be better for you."
+        "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {your} is in the following text:\n\nTo do this, we need {your} feedback, so that we can understand how you are using Central, and how it could be better for you."
       }
     }
   },
@@ -948,19 +948,19 @@
           "0": {
             "full": {
               "string": "{weWillShare}また、{termsOfService}と{privacyPolicy}に同意します。",
-              "developer_comment": "The following are separate strings that will be translated below. They will be formatted within ODK Central, for example, they might be bold or a link.\n\n- {weWillShare} has the text: We are willing to share anonymous usage data monthly with the Central team,\n- {termsOfService} has the text: Terms of Service\n- {privacyPolicy} has the text: Privacy Policy"
+              "developer_comment": "The following are separate strings that will be translated below. They will be formatted within Conectados, for example, they might be bold or a link.\n\n- {weWillShare} has the text: We are willing to share anonymous usage data monthly with the Central team,\n- {termsOfService} has the text: Terms of Service\n- {privacyPolicy} has the text: Privacy Policy"
             },
             "weWillShare": {
               "string": "私たちは毎月、匿名化された利用情報をCentralチームと共有します。",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {weWillShare} is in the following text:\n\n{weWillShare} and we accept the {termsOfService} and {privacyPolicy}."
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {weWillShare} is in the following text:\n\n{weWillShare} and we accept the {termsOfService} and {privacyPolicy}."
             },
             "termsOfService": {
               "string": "利用規約",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {termsOfService} is in the following text:\n\n{weWillShare} and we accept the {termsOfService} and {privacyPolicy}."
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {termsOfService} is in the following text:\n\n{weWillShare} and we accept the {termsOfService} and {privacyPolicy}."
             },
             "privacyPolicy": {
               "string": "プライバシーポリシー",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {privacyPolicy} is in the following text:\n\n{weWillShare} and we accept the {termsOfService} and {privacyPolicy}."
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {privacyPolicy} is in the following text:\n\n{weWillShare} and we accept the {termsOfService} and {privacyPolicy}."
             }
           },
           "1": {
@@ -981,7 +981,7 @@
           "string": "私は報告にコンタクトの情報を含みます。"
         },
         "1": {
-          "string": "私たちからあなたのODK Centralの利用状況について問い合わせることがあります。"
+          "string": "私たちからあなたのConectadosの利用状況について問い合わせることがあります。"
         }
       },
       "field": {
@@ -1009,11 +1009,11 @@
         "0": {
           "full": {
             "string": "システム管理の{usageReporting}タブで、あなたは匿名の利用データを共有するか、あなたのコンタクトをCentralの開発チームと共有するかを選択できます。",
-            "developer_comment": "{usageReporting} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nUsage Reporting"
+            "developer_comment": "{usageReporting} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nUsage Reporting"
           },
           "usageReporting": {
             "string": "利用状況報告",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {usageReporting} is in the following text:\n\nIn the {usageReporting} tab in System Settings, you can choose to share anonymized usage data or contact information with the Central team."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {usageReporting} is in the following text:\n\nIn the {usageReporting} tab in System Settings, you can choose to share anonymized usage data or contact information with the Central team."
           }
         },
         "1": {
@@ -1291,11 +1291,11 @@
       "getStarted": {
         "full": {
           "string": "",
-          "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nclick here"
+          "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nclick here"
         },
         "clickHere": {
           "string": "",
-          "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nFor more information on how to get started, {clickHere}."
+          "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nFor more information on how to get started, {clickHere}."
         }
       },
       "datasetsWorkflow": {
@@ -1346,11 +1346,11 @@
         "implication": {
           "full": {
             "string": "{count, plural, other {}}",
-            "developer_comment": "{records} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. In its plural form, its text is:\n\n{count} records"
+            "developer_comment": "{records} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. In its plural form, its text is:\n\n{count} records"
           },
           "records": {
             "string": "{count, plural, other {}}",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {records} is in the following text. (The plural form of the text is shown.)\n\nOnce this takes effect, Entities will no longer be generated when Submissions are marked Approved, including {records} we found that have neither been marked Approved nor Rejected."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {records} is in the following text. (The plural form of the text is shown.)\n\nOnce this takes effect, Entities will no longer be generated when Submissions are marked Approved, including {records} we found that have neither been marked Approved nor Rejected."
           }
         }
       },
@@ -1450,7 +1450,7 @@
           "string": "このフォームのプレビュー処理が終了していません。後ほどページを更新し、もう一度試して下さい。"
         },
         "notOpen": {
-          "string": "このバージョンのODK Centralでは、プレビューは、公開状態のフォームでのみ利用可能です。"
+          "string": "このバージョンのConectadosでは、プレビューは、公開状態のフォームでのみ利用可能です。"
         }
       }
     },
@@ -1480,11 +1480,11 @@
             "deleted": {
               "full": {
                 "string": "",
-                "developer_comment": "This text is shown in a list of events. {name} is the name of a user, a team of users, or a Public Access Link.\n\n{deletedSubmission} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\n(deleted Submission {id})"
+                "developer_comment": "This text is shown in a list of events. {name} is the name of a user, a team of users, or a Public Access Link.\n\n{deletedSubmission} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\n(deleted Submission {id})"
               },
               "deletedSubmission": {
                 "string": "",
-                "developer_comment": "This text is shown in a list of events. {id} is the Submission instance ID.\n\nThis text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {deletedSubmission} is in the following text:\n\n{deletedSubmission} uploaded by {name}"
+                "developer_comment": "This text is shown in a list of events. {id} is the Submission instance ID.\n\nThis text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {deletedSubmission} is in the following text:\n\n{deletedSubmission} uploaded by {name}"
               }
             }
           }
@@ -1566,21 +1566,21 @@
         "0": {
           "full": {
             "string": "アプリユーザーは、{collect} などのアプリケーションによる収集データに使用します。通常、アプリユーザーは「ワクチン接種従事者」のような共有の役割を示しますが、個人を示すこともあります。このプロジェクトのアプリユーザーは、このプロジェクトのフォームのみをダウンロードして使用できます。新規のアプリユーザーを作成しても、初期状態ではどのフォームにもアクセスできません。各アプリユーザーがアクセスできるフォームを設定するには、{formAccess}タブを使用します。",
-            "developer_comment": "{collect} is a link whose text is \"ODK Collect\".\n\n{formAccess} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nForm Access"
+            "developer_comment": "{collect} is a link whose text is \"ODK Collect\".\n\n{formAccess} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nForm Access"
           },
           "formAccess": {
             "string": "フォームへのアクセス",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {formAccess} is in the following text:\n\nApp Users are used to collect data from an application such as {collect}. They typically represent a shared role such as “Vaccinator” but may also represent individuals. App Users in this Project can only download and use Forms within this Project. When you create a new App User, it will not have access to any Forms at first. To set the Forms each App User may access, use the {formAccess} tab."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {formAccess} is in the following text:\n\nApp Users are used to collect data from an application such as {collect}. They typically represent a shared role such as “Vaccinator” but may also represent individuals. App Users in this Project can only download and use Forms within this Project. When you create a new App User, it will not have access to any Forms at first. To set the Forms each App User may access, use the {formAccess} tab."
           }
         },
         "1": {
           "full": {
             "string": "アプリユーザーは、データ収集者が複数のフォームにアクセスする必要がある場合やオフラインの場合、または複雑なフォームを使用している場合に最適です。回答者に自己申告してもらう必要がある場合や、オンラインのみのフォームの場合は、{clickHere}して他の選択肢を見て下さい。",
-            "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nclick here"
+            "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nclick here"
           },
           "clickHere": {
             "string": "こちらをクリック",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nApp Users are most appropriate when data collectors need access to multiple Forms, are offline, or you have a complex Form. If you need respondents to self-report or have an online-only form, {clickHere} for other options."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nApp Users are most appropriate when data collectors need access to multiple Forms, are offline, or you have a complex Form. If you need respondents to self-report or have an online-only form, {clickHere} for other options."
           }
         }
       },
@@ -1627,11 +1627,11 @@
         "2": {
           "full": {
             "string": "このプロジェクトの\"{formAccessSettings}\"にて、フォームに対するユーザーのアクセス権限を付与できます。",
-            "developer_comment": "{formAccessSettings} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nForm Access settings"
+            "developer_comment": "{formAccessSettings} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nForm Access settings"
           },
           "formAccessSettings": {
             "string": "フォームアクセスの設定",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {formAccessSettings} is in the following text:\n\nYou may wish to visit this Project’s {formAccessSettings} to give this user access to Forms."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {formAccessSettings} is in the following text:\n\nYou may wish to visit this Project’s {formAccessSettings} to give this user access to Forms."
           }
         }
       },
@@ -1658,21 +1658,21 @@
           "managed": {
             "full": {
               "string": "これは{managedCode}です。",
-              "developer_comment": "{managedCode} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nManaged QR Code"
+              "developer_comment": "{managedCode} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nManaged QR Code"
             },
             "managedCode": {
               "string": "管理型のQRコード",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {managedCode} is in the following text:\n\nThis is a {managedCode}."
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {managedCode} is in the following text:\n\nThis is a {managedCode}."
             }
           },
           "legacy": {
             "full": {
               "string": "これは{legacyCode}です。",
-              "developer_comment": "{legacyCode} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nLegacy QR Code"
+              "developer_comment": "{legacyCode} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nLegacy QR Code"
             },
             "legacyCode": {
               "string": "従来型のQRコード",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {legacyCode} is in the following text:\n\nThis is a {legacyCode}."
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {legacyCode} is in the following text:\n\nThis is a {legacyCode}."
             }
           }
         },
@@ -1690,29 +1690,29 @@
           "managed": {
             "full": {
               "string": "従来通りの操作のためには、{switchToLegacy}",
-              "developer_comment": "The following are separate strings that will be translated below. They will be formatted within ODK Central, for example, they might be bold or a link.\n\n- {switchToLegacy} has the text: switch to a {legacyCode}\n- {legacyCode} has the text: Legacy QR Code"
+              "developer_comment": "The following are separate strings that will be translated below. They will be formatted within Conectados, for example, they might be bold or a link.\n\n- {switchToLegacy} has the text: switch to a {legacyCode}\n- {legacyCode} has the text: Legacy QR Code"
             },
             "switchToLegacy": {
               "string": "{legacyCode}に切り替える。",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {switchToLegacy} is in the following text:\n\nFor the old behavior, {switchToLegacy}.\n\nNote that {legacyCode} is a separate string that will be translated below. Its text is:\n\nLegacy QR Code"
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {switchToLegacy} is in the following text:\n\nFor the old behavior, {switchToLegacy}.\n\nNote that {legacyCode} is a separate string that will be translated below. Its text is:\n\nLegacy QR Code"
             },
             "legacyCode": {
               "string": "従来型のQRコード",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {legacyCode} is in the following text:\n\nFor the old behavior, switch to a {legacyCode}."
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {legacyCode} is in the following text:\n\nFor the old behavior, switch to a {legacyCode}."
             }
           },
           "legacy": {
             "full": {
               "string": "より管理された確実な処理のために、{switchToManaged}",
-              "developer_comment": "The following are separate strings that will be translated below. They will be formatted within ODK Central, for example, they might be bold or a link.\n\n- {switchToManaged} has the text: switch to a {managedCode}\n- {managedCode} has the text: Managed QR Code"
+              "developer_comment": "The following are separate strings that will be translated below. They will be formatted within Conectados, for example, they might be bold or a link.\n\n- {switchToManaged} has the text: switch to a {managedCode}\n- {managedCode} has the text: Managed QR Code"
             },
             "switchToManaged": {
               "string": "{managedCode}に切り替える。",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {switchToManaged} is in the following text:\n\nFor a more controlled and foolproof process, {switchToManaged}.\n\nNote that {managedCode} is a separate string that will be translated below. Its text is:\n\nManaged QR Code"
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {switchToManaged} is in the following text:\n\nFor a more controlled and foolproof process, {switchToManaged}.\n\nNote that {managedCode} is a separate string that will be translated below. Its text is:\n\nManaged QR Code"
             },
             "managedCode": {
               "string": "管理型のQRコード",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {managedCode} is in the following text:\n\nFor a more controlled and foolproof process, switch to a {managedCode}."
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {managedCode} is in the following text:\n\nFor a more controlled and foolproof process, switch to a {managedCode}."
             }
           }
         },
@@ -1862,11 +1862,11 @@
         "dropToPrepare": {
           "full": {
             "string": "このフォームにアップロードする{countOfFiles}を準備し、今すぐドロップしてください。",
-            "developer_comment": "{countOfFiles} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. In its plural form, its text is:\n\n{count} files"
+            "developer_comment": "{countOfFiles} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. In its plural form, its text is:\n\n{count} files"
           },
           "countOfFiles": {
             "string": "{count, plural, other {{count}件のファイル}}",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {countOfFiles} is in the following text:\n\nDrop now to prepare {countOfFiles} for upload to this Form."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {countOfFiles} is in the following text:\n\nDrop now to prepare {countOfFiles} for upload to this Form."
           }
         }
       },
@@ -1874,21 +1874,21 @@
         "matched": {
           "full": {
             "string": "{count, plural, other {{countOfFiles}はアップロードできます。}}",
-            "developer_comment": "{countOfFiles} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. In its plural form, its text is:\n\n{count} files"
+            "developer_comment": "{countOfFiles} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. In its plural form, its text is:\n\n{count} files"
           },
           "countOfFiles": {
             "string": "{count, plural, other {{count}件のファイル}}",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {countOfFiles} is in the following text. (The plural form of the text is shown.)\n\n{countOfFiles} ready for upload."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {countOfFiles} is in the following text. (The plural form of the text is shown.)\n\n{countOfFiles} ready for upload."
           }
         },
         "someUnmatched": {
           "full": {
             "string": "{count, plural, other {{countOfFiles}は認識できない名前のため無視されます。これらのアップロードには、名前を変更するか、それぞれ個別にアップロード対象にドラッグ＆ドロップしてください。}}",
-            "developer_comment": "{countOfFiles} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. In its plural form, its text is:\n\n{count} files"
+            "developer_comment": "{countOfFiles} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. In its plural form, its text is:\n\n{count} files"
           },
           "countOfFiles": {
             "string": "{count, plural, other {{count}件のファイル}}",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {countOfFiles} is in the following text. (The plural form of the text is shown.)\n\n{countOfFiles} have a name we don’t recognize and will be ignored. To upload them, rename them or drag them individually onto their targets."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {countOfFiles} is in the following text. (The plural form of the text is shown.)\n\n{countOfFiles} have a name we don’t recognize and will be ignored. To upload them, rename them or drag them individually onto their targets."
           }
         },
         "noneMatched": {
@@ -1972,21 +1972,21 @@
         "0": {
           "full": {
             "string": "ファイルのアップロードは、１つまたは複数のファイルをこのページの表に{dragAndDrop}することで可能です。",
-            "developer_comment": "{dragAndDrop} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\ndrag and drop"
+            "developer_comment": "{dragAndDrop} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\ndrag and drop"
           },
           "dragAndDrop": {
             "string": "ドラッグ＆ドロップ",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {dragAndDrop} is in the following text:\n\nTo upload files, you can {dragAndDrop} one or more files onto the table on this page."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {dragAndDrop} is in the following text:\n\nTo upload files, you can {dragAndDrop} one or more files onto the table on this page."
           }
         },
         "1": {
           "full": {
             "string": "プロンプトからファイルを選択したい場合は、表にあるものとファイル名が一致していることを確認してから、{clickHere}。",
-            "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nclick here to choose"
+            "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nclick here to choose"
           },
           "clickHere": {
             "string": "こちらをクリックして選択する",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nIf you would rather select files from a prompt, ensure that their names match the ones in the table and then {clickHere}."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nIf you would rather select files from a prompt, ensure that their names match the ones in the table and then {clickHere}."
           }
         }
       }
@@ -2074,11 +2074,11 @@
               "link": {
                 "full": {
                   "string": "フォームに質問文や理論式などの変更を加えた場合、更新したXMLまたはXLSFormを{upload}するには、今がチャンスです。",
-                  "developer_comment": "This refers to changes to the Form definition as opposed to just the Attachments associated with the Form. The word \"XLSForm\" should not be translated.\n\n{upload} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nupload"
+                  "developer_comment": "This refers to changes to the Form definition as opposed to just the Attachments associated with the Form. The word \"XLSForm\" should not be translated.\n\n{upload} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nupload"
                 },
                 "upload": {
                   "string": "アップロード",
-                  "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {upload} is in the following text:\n\nIf you have made changes to the Form itself, including question text or logic rules, now is the time to {upload} the new XML or XLSForm."
+                  "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {upload} is in the following text:\n\nIf you have made changes to the Form itself, including question text or logic rules, now is the time to {upload} the new XML or XLSForm."
                 }
               }
             }
@@ -2093,11 +2093,11 @@
             "0": {
               "full": {
                 "string": "",
-                "developer_comment": "{formAttachments} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nForm Attachments"
+                "developer_comment": "{formAttachments} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nForm Attachments"
               },
               "formAttachments": {
                 "string": "",
-                "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {formAttachments} is in the following text:\n\nYour Form design references files that are needed in order to present your Form. You can upload new or updated copies of these for distribution under the {formAttachments} tab."
+                "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {formAttachments} is in the following text:\n\nYour Form design references files that are needed in order to present your Form. You can upload new or updated copies of these for distribution under the {formAttachments} tab."
               }
             }
           }
@@ -2111,11 +2111,11 @@
             "0": {
               "full": {
                 "string": "フォームが期待通りに動作するかを{test}できます。テストの目的で提出されたフォームは、最終的なデータには含まれません。",
-                "developer_comment": "{test} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\ntest"
+                "developer_comment": "{test} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\ntest"
               },
               "test": {
                 "string": "テスト",
-                "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {test} is in the following text:\n\nYou can {test} a Form to be sure it works the way you expect. Test Submissions are not included in your final data."
+                "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {test} is in the following text:\n\nYou can {test} a Form to be sure it works the way you expect. Test Submissions are not included in your final data."
               }
             }
           }
@@ -2133,11 +2133,11 @@
               "link": {
                 "full": {
                   "string": "下書きの準備が整い、フィールドで用いる端末で運用開始したい場合、下書きを{publish}できます。",
-                  "developer_comment": "{publish} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\npublish"
+                  "developer_comment": "{publish} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\npublish"
                 },
                 "publish": {
                   "string": "公開",
-                  "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {publish} is in the following text:\n\nWhen you are sure your Draft is ready and you wish to roll it out to your devices in the field, you can {publish} it."
+                  "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {publish} is in the following text:\n\nWhen you are sure your Draft is ready and you wish to roll it out to your devices in the field, you can {publish} it."
                 }
               }
             }
@@ -2154,21 +2154,21 @@
         "attachments": {
           "full": {
             "string": "",
-            "developer_comment": "This is a warning shown to the user.\n\n{formAttachments} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nForm Attachments"
+            "developer_comment": "This is a warning shown to the user.\n\n{formAttachments} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nForm Attachments"
           },
           "formAttachments": {
             "string": "",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {formAttachments} is in the following text:\n\nYou have not provided all the {formAttachments} that your Form requires. You can ignore this if you wish, but you will need to make a new Draft version to provide those Attachments later."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {formAttachments} is in the following text:\n\nYou have not provided all the {formAttachments} that your Form requires. You can ignore this if you wish, but you will need to make a new Draft version to provide those Attachments later."
           }
         },
         "testing": {
           "full": {
             "string": "まだテストフォームのアップロードにより、{tested}していません。これは必須ではありませんが、強く推奨します。",
-            "developer_comment": "This is a warning shown to the user.\n\n{tested} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\ntested this Form"
+            "developer_comment": "This is a warning shown to the user.\n\n{tested} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\ntested this Form"
           },
           "tested": {
             "string": "このフォームをテスト",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {tested} is in the following text:\n\nYou have not yet {tested} by uploading a test Submission. You do not have to do this, but it is highly recommended."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {tested} is in the following text:\n\nYou have not yet {tested} by uploading a test Submission. You do not have to do this, but it is highly recommended."
           }
         }
       },
@@ -2201,11 +2201,11 @@
         "introduction": {
           "full": {
             "string": "",
-            "developer_comment": "{inAddition} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nIn addition,"
+            "developer_comment": "{inAddition} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nIn addition,"
           },
           "inAddition": {
             "string": "",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {inAddition} is in the following text:\n\n{inAddition} publishing this Form definition will make the following changes to this Project:"
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {inAddition} is in the following text:\n\n{inAddition} publishing this Form definition will make the following changes to this Project:"
           }
         },
         "newDataset": {
@@ -2227,11 +2227,11 @@
         "versionCaption": {
           "full": {
             "string": "このフォームの{draftVersion}",
-            "developer_comment": "{draftVersion} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nDraft version"
+            "developer_comment": "{draftVersion} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nDraft version"
           },
           "draftVersion": {
             "string": "下書きバージョン名",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {draftVersion} is in the following text:\n\n{draftVersion} of this Form."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {draftVersion} is in the following text:\n\n{draftVersion} of this Form."
           }
         },
         "action": {
@@ -2376,11 +2376,11 @@
         "1": {
           "full": {
             "string": "もしまだフォームをお持ちでない場合、フォームデザインを支援する{tools}。",
-            "developer_comment": "{tools} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\ntools available"
+            "developer_comment": "{tools} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\ntools available"
           },
           "tools": {
             "string": "ツールを利用できます",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {tools} is in the following text:\n\nIf you don’t already have one, there are {tools} to help you design your Form."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {tools} is in the following text:\n\nIf you don’t already have one, there are {tools} to help you design your Form."
           }
         },
         "2": {
@@ -2390,11 +2390,11 @@
       "dropZone": {
         "full": {
           "string": "アップロードするには、ここにファイルをドロップする、または、こちらからファイルを{chooseOne}",
-          "developer_comment": "{chooseOne} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nchoose one"
+          "developer_comment": "{chooseOne} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nchoose one"
         },
         "chooseOne": {
           "string": "１つ選択",
-          "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {chooseOne} is in the following text:\n\nDrop a file here, or {chooseOne} to upload."
+          "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {chooseOne} is in the following text:\n\nDrop a file here, or {chooseOne} to upload."
         }
       },
       "action": {
@@ -2474,11 +2474,11 @@
           "versionCaption": {
             "full": {
               "string": "このフォームの{draftVersion}",
-              "developer_comment": "{draftVersion} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nDraft version"
+              "developer_comment": "{draftVersion} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nDraft version"
             },
             "draftVersion": {
               "string": "下書きバージョン",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {draftVersion} is in the following text:\n\n{draftVersion} of this Form."
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {draftVersion} is in the following text:\n\n{draftVersion} of this Form."
             }
           }
         }
@@ -2488,11 +2488,11 @@
       "version": {
         "full": {
           "string": "フォームの{publishedVersion}",
-          "developer_comment": "{publishedVersion} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nPublished version"
+          "developer_comment": "{publishedVersion} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nPublished version"
         },
         "publishedVersion": {
           "string": "公開バージョン",
-          "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {publishedVersion} is in the following text:\n\n{publishedVersion} of this Form."
+          "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {publishedVersion} is in the following text:\n\n{publishedVersion} of this Form."
         }
       },
       "stateCaption": {
@@ -2509,11 +2509,11 @@
       "submissions": {
         "full": {
           "string": "{count, plural, other {このフォームへの{submissions}は保存されました。}}",
-          "developer_comment": "The count of Submissions is shown separately above this text.\n\n{submissions} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. In its plural form, its text is:\n\nSubmissions"
+          "developer_comment": "The count of Submissions is shown separately above this text.\n\n{submissions} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. In its plural form, its text is:\n\nSubmissions"
         },
         "submissions": {
           "string": "{count, plural, other {提出}}",
-          "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {submissions} is in the following text. (The plural form of the text is shown.)\n\n{submissions} have been saved for this Form."
+          "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {submissions} is in the following text. (The plural form of the text is shown.)\n\n{submissions} have been saved for this Form."
         }
       },
       "datasetsLinked": {
@@ -2562,11 +2562,11 @@
         "body": {
           "full": {
             "string": "このフォームの状態を設定するには、各プロジェクトの{formAccessSettings}を確認して下さい。",
-            "developer_comment": "{formAccessSettings} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nForm Access settings"
+            "developer_comment": "{formAccessSettings} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nForm Access settings"
           },
           "formAccessSettings": {
             "string": "フォームアクセスの設定",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {formAccessSettings} is in the following text:\n\nTo set this Form’s state, please visit the Project {formAccessSettings}."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {formAccessSettings} is in the following text:\n\nTo set this Form’s state, please visit the Project {formAccessSettings}."
           }
         }
       },
@@ -2785,7 +2785,7 @@
       },
       "version": {
         "string": "バージョン",
-        "developer_comment": "This is the text of a link that shows what version of ODK Central is in use."
+        "developer_comment": "This is the text of a link that shows what version of Conectados is in use."
       }
     },
     "NavbarLinks": {
@@ -2797,7 +2797,7 @@
     "NavbarLocaleDropdown": {
       "helpTranslate": {
         "string": "Centralの翻訳に貢献する",
-        "developer_comment": "This is shown below the list of languages and links to the ODK Central translation guide."
+        "developer_comment": "This is shown below the list of languages and links to the Conectados translation guide."
       }
     },
     "NotFound": {
@@ -2829,11 +2829,11 @@
         "1": {
           "full": {
             "string": "{noUndo}プロジェクトの非アーカイブ化機能は将来的にリリースされる予定です。",
-            "developer_comment": "{noUndo} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nThis action cannot be undone"
+            "developer_comment": "{noUndo} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nThis action cannot be undone"
           },
           "noUndo": {
             "string": "この操作は取り消しできません。",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {noUndo} is in the following text:\n\n{noUndo}, but the ability to unarchive a Project is planned for a future release."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {noUndo} is in the following text:\n\n{noUndo}, but the ability to unarchive a Project is planned for a future release."
           }
         }
       }
@@ -2906,7 +2906,7 @@
             },
             "1": {
               "0": {
-                "string": "また、このバージョンのODK Centralでは以下のようになっています。"
+                "string": "また、このバージョンのConectadosでは以下のようになっています。"
               },
               "1": {
                 "0": {
@@ -2928,11 +2928,11 @@
             "2": {
               "full": {
                 "string": "暗号化についての詳細は{here}にあります。この内容でよろしければ、「次へ」をクリックして次に進みます。",
-                "developer_comment": "{here} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nhere"
+                "developer_comment": "{here} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nhere"
               },
               "here": {
                 "string": "こちら",
-                "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {here} is in the following text:\n\nYou can learn more about encryption {here}. If this sounds like something you want, press Next to proceed."
+                "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {here} is in the following text:\n\nYou can learn more about encryption {here}. If this sounds like something you want, press Next to proceed."
               }
             }
           }
@@ -2945,11 +2945,11 @@
             "1": {
               "full": {
                 "string": "",
-                "developer_comment": "{no} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nno"
+                "developer_comment": "{no} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nno"
               },
               "no": {
                 "string": "ません",
-                "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {no} is in the following text:\n\nIf you lose the passphrase, there is {no} way to recover it or your data!"
+                "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {no} is in the following text:\n\nIf you lose the passphrase, there is {no} way to recover it or your data!"
               }
             }
           }
@@ -3014,43 +3014,43 @@
         "1": {
           "full": {
             "string": "{open}のフォームはダウンロードでき、新規のフォームの提出も受け付けます。",
-            "developer_comment": "{open} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nOpen"
+            "developer_comment": "{open} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nOpen"
           },
           "open": {
             "string": "公開中",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {open} is in the following text:\n\n{open} Forms are available to download and will accept new Submissions."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {open} is in the following text:\n\n{open} Forms are available to download and will accept new Submissions."
           }
         },
         "2": {
           "full": {
             "string": "{closing}のフォームは新規のフォームの提出を受け付けますが、ダウンロードはでき{not}。",
-            "developer_comment": "The following are separate strings that will be translated below. They will be formatted within ODK Central, for example, they might be bold or a link.\n\n- {closing} has the text: Closing\n- {not} has the text: not"
+            "developer_comment": "The following are separate strings that will be translated below. They will be formatted within Conectados, for example, they might be bold or a link.\n\n- {closing} has the text: Closing\n- {not} has the text: not"
           },
           "closing": {
             "string": "クロージング状態",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {closing} is in the following text:\n\n{closing} Forms will accept new Submissions, but are {not} available to download."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {closing} is in the following text:\n\n{closing} Forms will accept new Submissions, but are {not} available to download."
           },
           "not": {
             "string": "ません",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {not} is in the following text:\n\n{closing} Forms will accept new Submissions, but are {not} available to download."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {not} is in the following text:\n\n{closing} Forms will accept new Submissions, but are {not} available to download."
           }
         },
         "3": {
           "full": {
             "string": "{closed}したフォームはダウンロードでき{not1}。また新規のフォームの提出も受け付け{not2}。",
-            "developer_comment": "The following are separate strings that will be translated below. They will be formatted within ODK Central, for example, they might be bold or a link.\n\n- {closed} has the text: Closed\n- {not1} has the text: not\n- {not2} has the text: not"
+            "developer_comment": "The following are separate strings that will be translated below. They will be formatted within Conectados, for example, they might be bold or a link.\n\n- {closed} has the text: Closed\n- {not1} has the text: not\n- {not2} has the text: not"
           },
           "closed": {
             "string": "終了",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {closed} is in the following text:\n\n{closed} Forms are {not1} available to download and will {not2} accept new Submissions."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {closed} is in the following text:\n\n{closed} Forms are {not1} available to download and will {not2} accept new Submissions."
           },
           "not1": {
             "string": "ません",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {not1} is in the following text:\n\n{closed} Forms are {not1} available to download and will {not2} accept new Submissions."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {not1} is in the following text:\n\n{closed} Forms are {not1} available to download and will {not2} accept new Submissions."
           },
           "not2": {
             "string": "ません",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {not2} is in the following text:\n\n{closed} Forms are {not1} available to download and will {not2} accept new Submissions."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {not2} is in the following text:\n\n{closed} Forms are {not1} available to download and will {not2} accept new Submissions."
           }
         }
       }
@@ -3124,11 +3124,11 @@
       "instructions": {
         "full": {
           "string": "",
-          "developer_comment": "This is shown in place of an empty project description and serves as a guide for where and how to change the description.\n\n{projectSettings} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nProject Settings"
+          "developer_comment": "This is shown in place of an empty project description and serves as a guide for where and how to change the description.\n\n{projectSettings} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nProject Settings"
         },
         "projectSettings": {
           "string": "",
-          "developer_comment": "This is shown in place of an empty project description and serves as a guide for where and how to change the description.\n\nThis text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {projectSettings} is in the following text:\n\nAdd Project notes, links, instructions and other resources to this space in {projectSettings}."
+          "developer_comment": "This is shown in place of an empty project description and serves as a guide for where and how to change the description.\n\nThis text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {projectSettings} is in the following text:\n\nAdd Project notes, links, instructions and other resources to this space in {projectSettings}."
         }
       },
       "note": {
@@ -3152,15 +3152,15 @@
             "0": {
               "full": {
                 "string": "このプロジェクトの提出されたフォームの暗号化は、{enabled}",
-                "developer_comment": "{enabled} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nenabled"
+                "developer_comment": "{enabled} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nenabled"
               },
               "enabled": {
                 "string": "有効にされています。",
-                "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {enabled} is in the following text:\n\nSubmission data encryption is {enabled} for this Project."
+                "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {enabled} is in the following text:\n\nSubmission data encryption is {enabled} for this Project."
               }
             },
             "1": {
-              "string": "このバージョンのODK Centralでは、一度有効にされた暗号化は無効にできません。"
+              "string": "このバージョンのConectadosでは、一度有効にされた暗号化は無効にできません。"
             }
           }
         },
@@ -3183,7 +3183,7 @@
             "string": "このプロジェクトはアーカイブされました。"
           },
           "1": {
-            "string": "このバージョンのODK Centralでは、プロジェクトの非アーカイブ化はできません。プロジェクトの非アーカイブ機能は将来的にリリースされる予定です。"
+            "string": "このバージョンのConectadosでは、プロジェクトの非アーカイブ化はできません。プロジェクトの非アーカイブ機能は将来的にリリースされる予定です。"
           }
         }
       },
@@ -3212,41 +3212,41 @@
       },
       "introduction": {
         "0": {
-          "string": "ODK Centralへのデータ提出方法にはいくつかの選択肢があります。",
+          "string": "Conectadosへのデータ提出方法にはいくつかの選択肢があります。",
           "developer_comment": "This text is shown above a list of options for submitting data."
         },
         "1": {
           "full": {
             "string": "{appUsers}を作成し、Androidアプリの{collect}を使用して下さい。この方法は、データ収集者が複数のフォームにアクセスする必要がある場合や、オフラインである場合、複雑なフォームを持っている場合などに最適です",
-            "developer_comment": "This text is shown in a list of options for submitting data. {collect} is a link whose text is \"ODK Collect\".\n\n{appUsers} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nApp Users"
+            "developer_comment": "This text is shown in a list of options for submitting data. {collect} is a link whose text is \"ODK Collect\".\n\n{appUsers} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nApp Users"
           },
           "appUsers": {
             "string": "アプリユーザー",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {appUsers} is in the following text:\n\nCreate {appUsers} and use the {collect} Android application. This is most appropriate when data collectors need access to multiple Forms, are offline, or you have a complex Form."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {appUsers} is in the following text:\n\nCreate {appUsers} and use the {collect} Android application. This is most appropriate when data collectors need access to multiple Forms, are offline, or you have a complex Form."
           }
         },
         "2": {
           "full": {
             "string": "１つ以上の{publicLinks}を作成し、回答者と共有する。回答者は自身でフォームに入力し、提出する。",
-            "developer_comment": "This text is shown in a list of options for submitting data.\n\n{publicLinks} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nPublic Access Links"
+            "developer_comment": "This text is shown in a list of options for submitting data.\n\n{publicLinks} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nPublic Access Links"
           },
           "publicLinks": {
             "string": "一般公開リンク",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {publicLinks} is in the following text:\n\nCreate one or more {publicLinks} to share with respondents who will self-report."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {publicLinks} is in the following text:\n\nCreate one or more {publicLinks} to share with respondents who will self-report."
           }
         },
         "3": {
           "full": {
             "string": "データを収集する各個人に、{dataCollector}の役割を持つ{webUser}を作成します。これらのユーザーはCentralにログインし、Webブラウザでこのフォームに入力します。プロジェクトマネージャーもブラウザ経由でフォームが提出できます。",
-            "developer_comment": "This text is shown in a list of options for submitting data.\n\nThe following are separate strings that will be translated below. They will be formatted within ODK Central, for example, they might be bold or a link.\n\n- {webUser} has the text: Web User\n- {dataCollector} has the text: Data Collector"
+            "developer_comment": "This text is shown in a list of options for submitting data.\n\nThe following are separate strings that will be translated below. They will be formatted within Conectados, for example, they might be bold or a link.\n\n- {webUser} has the text: Web User\n- {dataCollector} has the text: Data Collector"
           },
           "webUser": {
             "string": "Webユーザー",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {webUser} is in the following text:\n\nCreate a {webUser} with the Role of {dataCollector} for each individual who will be collecting data. These Users will log into Central to fill out this Form in a web browser. Project Managers can also create Submissions from a web browser."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {webUser} is in the following text:\n\nCreate a {webUser} with the Role of {dataCollector} for each individual who will be collecting data. These Users will log into Central to fill out this Form in a web browser. Project Managers can also create Submissions from a web browser."
           },
           "dataCollector": {
             "string": "データ収集者",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {dataCollector} is in the following text:\n\nCreate a {webUser} with the Role of {dataCollector} for each individual who will be collecting data. These Users will log into Central to fill out this Form in a web browser. Project Managers can also create Submissions from a web browser."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {dataCollector} is in the following text:\n\nCreate a {webUser} with the Role of {dataCollector} for each individual who will be collecting data. These Users will log into Central to fill out this Form in a web browser. Project Managers can also create Submissions from a web browser."
           }
         }
       }
@@ -3260,31 +3260,31 @@
         "1": {
           "full": {
             "string": "{projectManagers}は、このプロジェクトに関連するあらゆる管理作業を行うことができ、Webブラウザでフォームを入力できます。",
-            "developer_comment": "This text is shown in a list of Roles.\n\n{projectManagers} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nProject Managers"
+            "developer_comment": "This text is shown in a list of Roles.\n\n{projectManagers} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nProject Managers"
           },
           "projectManagers": {
             "string": "プロジェクト・マネージャー",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {projectManagers} is in the following text:\n\n{projectManagers} can perform any administrative task related to this Project and can fill Forms out in a web browser"
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {projectManagers} is in the following text:\n\n{projectManagers} can perform any administrative task related to this Project and can fill Forms out in a web browser"
           }
         },
         "2": {
           "full": {
             "string": "{projectViewers}は、このプロジェクトの全てのフォームにアクセスし、ダウンロードできますが、設定やデータの変更はできません。",
-            "developer_comment": "This text is shown in a list of Roles.\n\n{projectViewers} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nProject Viewers"
+            "developer_comment": "This text is shown in a list of Roles.\n\n{projectViewers} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nProject Viewers"
           },
           "projectViewers": {
             "string": "プロジェクト・閲覧者",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {projectViewers} is in the following text:\n\n{projectViewers} can access and download all Form data in this Project, but cannot make any changes to settings or data"
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {projectViewers} is in the following text:\n\n{projectViewers} can access and download all Form data in this Project, but cannot make any changes to settings or data"
           }
         },
         "3": {
           "full": {
             "string": "{dataCollectors}は、Webブラウザでフォームを入力できますが、データや設定を閲覧・変更はできません。",
-            "developer_comment": "This text is shown in a list of Roles.\n\n{dataCollectors} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nData Collectors"
+            "developer_comment": "This text is shown in a list of Roles.\n\n{dataCollectors} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nData Collectors"
           },
           "dataCollectors": {
             "string": "データ収集者",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {dataCollectors} is in the following text:\n\n{dataCollectors} can fill Forms out in a web browser, but cannot view or change data or settings"
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {dataCollectors} is in the following text:\n\n{dataCollectors} can fill Forms out in a web browser, but cannot view or change data or settings"
           }
         }
       },
@@ -3374,21 +3374,21 @@
         "0": {
           "full": {
             "string": "一般公開リンクを持っている人は誰でも、Webブラウザでこのフォームに記入できます。複数のリンクを作成し、フォームの異なる配布状況を追跡したり、特定のグループの人々がフォームにアクセスできる時間を制限することが可能です。これらのリンクは、フォームが公開中の{state}の場合にのみ機能します。",
-            "developer_comment": "{state} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nstate"
+            "developer_comment": "{state} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nstate"
           },
           "state": {
             "string": "ステータス",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {state} is in the following text:\n\nAnyone with a Public Access Link can fill out this Form in a web browser. You can create multiple Links to track different distributions of the Form, to limit how long a specific group of people has access to the Form, and more. These links will only work if the Form is in the Open {state}."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {state} is in the following text:\n\nAnyone with a Public Access Link can fill out this Form in a web browser. You can create multiple Links to track different distributions of the Form, to limit how long a specific group of people has access to the Form, and more. These links will only work if the Form is in the Open {state}."
           }
         },
         "1": {
           "full": {
             "string": "一般公開リンクは、自己申告を目的としています。同じフォームを何度も送信する必要があるデータ収集者がいる場合は、{clickHere}して他の方法を確認して下さい。",
-            "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nclick here"
+            "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nclick here"
           },
           "clickHere": {
             "string": "こちらをクリック",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nPublic Links are intended for self-reporting. If you are working with data collectors who need to submit the same Form multiple times, {clickHere} for other options."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nPublic Links are intended for self-reporting. If you are working with data collectors who need to submit the same Form multiple times, {clickHere} for other options."
           }
         }
       },
@@ -3476,15 +3476,15 @@
         "microsoft": {
           "full": {
             "string": "",
-            "developer_comment": "The following are separate strings that will be translated below. They will be formatted within ODK Central, for example, they might be bold or a link.\n\n- {pageForExcel} has the text: this page\n- {pageForPowerBi} has the text: this page"
+            "developer_comment": "The following are separate strings that will be translated below. They will be formatted within Conectados, for example, they might be bold or a link.\n\n- {pageForExcel} has the text: this page\n- {pageForPowerBi} has the text: this page"
           },
           "pageForExcel": {
             "string": "このページ",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {pageForExcel} is in the following text:\n\nFor help using OData with Power BI, see {pageForPowerBi}. For help with Excel, see {pageForExcel}."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {pageForExcel} is in the following text:\n\nFor help using OData with Power BI, see {pageForPowerBi}. For help with Excel, see {pageForExcel}."
           },
           "pageForPowerBi": {
             "string": "このページ",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {pageForPowerBi} is in the following text:\n\nFor help using OData with Power BI, see {pageForPowerBi}. For help with Excel, see {pageForExcel}."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {pageForPowerBi} is in the following text:\n\nFor help using OData with Power BI, see {pageForPowerBi}. For help with Excel, see {pageForExcel}."
           }
         },
         "python": {
@@ -3498,11 +3498,11 @@
         "other": {
           "full": {
             "string": "ODataに関するサポートの詳細は、{article}を参照して下さい。",
-            "developer_comment": "{article} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nthis article"
+            "developer_comment": "{article} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nthis article"
           },
           "article": {
             "string": "こちら",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {article} is in the following text:\n\nFor a full description of our OData support, please see {article}."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {article} is in the following text:\n\nFor a full description of our OData support, please see {article}."
           }
         }
       }
@@ -3671,51 +3671,51 @@
           "null": {
             "full": {
               "string": "{name}による{reviewState}報告",
-              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} per {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nReceived"
+              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} per {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nReceived"
             },
             "reviewState": {
               "string": "受信済み",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} per {name}"
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} per {name}"
             }
           },
           "hasIssues": {
             "full": {
               "string": "{name}による{reviewState}報告",
-              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} per {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nHas Issues"
+              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} per {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nHas Issues"
             },
             "reviewState": {
               "string": "問題有り",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} per {name}"
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} per {name}"
             }
           },
           "edited": {
             "full": {
               "string": "{name}による{reviewState}",
-              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} by {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nEdited"
+              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} by {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nEdited"
             },
             "reviewState": {
               "string": "編集済み",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} by {name}"
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} by {name}"
             }
           },
           "approved": {
             "full": {
               "string": "{name}による{reviewState}",
-              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} by {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nApproved"
+              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} by {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nApproved"
             },
             "reviewState": {
               "string": "承認済み",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} by {name}"
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} by {name}"
             }
           },
           "rejected": {
             "full": {
               "string": "{name}による{reviewState}",
-              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} by {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nRejected"
+              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} by {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nRejected"
             },
             "reviewState": {
               "string": "リジェクト済み",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} by {name}"
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} by {name}"
             }
           }
         },
@@ -4012,11 +4012,11 @@
       "introduction": {
         "full": {
           "string": "次の{resetPassword}クリックすると、ユーザー\"{displayName}\"<{email}>のパスワードが今すぐ無効化されます。その際、{email}に今後の手順を記載したメールが送信されます。",
-          "developer_comment": "{resetPassword} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nReset password"
+          "developer_comment": "{resetPassword} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nReset password"
         },
         "resetPassword": {
           "string": "パスワードのリセット",
-          "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {resetPassword} is in the following text:\n\nOnce you click {resetPassword} below, the password for the user “{displayName}” <{email}> will be immediately invalidated. An email will be sent to {email} with instructions on how to proceed."
+          "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {resetPassword} is in the following text:\n\nOnce you click {resetPassword} below, the password for the user “{displayName}” <{email}> will be immediately invalidated. An email will be sent to {email} with instructions on how to proceed."
         }
       }
     },
@@ -4032,11 +4032,11 @@
         "1": {
           "full": {
             "string": "{noUndo}が、新しいアカウントは同じメールアドレスでいつでも再作成することができます。",
-            "developer_comment": "{noUndo} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nThis action cannot be undone"
+            "developer_comment": "{noUndo} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nThis action cannot be undone"
           },
           "noUndo": {
             "string": "この操作は取り消しできません",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {noUndo} is in the following text:\n\n{noUndo}, but a new account can always be created for that person with the same email address."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {noUndo} is in the following text:\n\n{noUndo}, but a new account can always be created for that person with the same email address."
           }
         }
       }

@@ -9,7 +9,7 @@ describe('AccountResetPassword', () => {
     load('/reset-password')
       .restoreSession(false)
       .afterResponse(() => {
-        document.title.should.equal('Reset Password | ODK Central');
+        document.title.should.equal('Reset Password | Conectados');
       }));
 
   it('focuses the input', () => {

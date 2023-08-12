@@ -1,11 +1,11 @@
 <!--
-Copyright 2020 ODK Central Developers
+Copyright 2020 Conectados Developers
 See the NOTICE file at the top-level directory of this distribution and at
 https://github.com/getodk/central-frontend/blob/master/NOTICE.
 
-This file is part of ODK Central. It is subject to the license terms in
+This file is part of Conectados. It is subject to the license terms in
 the LICENSE file found in the top-level directory of this distribution and at
-https://www.apache.org/licenses/LICENSE-2.0. No part of ODK Central,
+https://www.apache.org/licenses/LICENSE-2.0. No part of Conectados,
 including this file, may be copied, modified, propagated, or distributed
 except according to the terms contained in the LICENSE file.
 -->
@@ -95,7 +95,7 @@ const { projectPath, formPath } = useRoutes();
     "title": "Submission Options",
     "introduction": [
       // This text is shown above a list of options for submitting data.
-      "There are several options for submitting data to ODK Central:",
+      "There are several options for submitting data to Conectados:",
       {
         // This text is shown in a list of options for submitting data.
         // {collect} is a link whose text is "ODK Collect".
@@ -124,7 +124,7 @@ const { projectPath, formPath } = useRoutes();
   "cs": {
     "title": "Možnosti Příspěvků",
     "introduction": [
-      "Existuje několik možností pro odesílání dat do ODK Central:",
+      "Existuje několik možností pro odesílání dat do Conectados:",
       {
         "full": "Vytvořte {appUsers} a použijte {collect} aplikaci pro Android. To je nejvhodnější, pokud sběratelé dat potřebují přístup k více formulářům, jsou offline, nebo máte složitý formulář.",
         "appUsers": "Uživatele aplikace"
@@ -143,7 +143,7 @@ const { projectPath, formPath } = useRoutes();
   "de": {
     "title": "Übermittlungsoptionen",
     "introduction": [
-      "Es gibt mehrere Optionen, um Daten an ODK Central zu übermitteln:",
+      "Es gibt mehrere Optionen, um Daten an Conectados zu übermitteln:",
       {
         "full": "{appUsers} erstellen und die {collect} Android-App benutzen. Dies passt am besten, wenn die Datensammler Zugriff auf mehrere Formulare benötigen, offline sind oder wenn Sie ein komplexes Formular haben.",
         "appUsers": "App-Benutzer"
@@ -162,7 +162,7 @@ const { projectPath, formPath } = useRoutes();
   "es": {
     "title": "Opciones de envío",
     "introduction": [
-      "Hay varias opciones para enviar datos a ODK Central:",
+      "Hay varias opciones para enviar datos a Conectados:",
       {
         "full": "Crea {appUsers} y usa la aplicación Android {collect}. Esto es más apropiado cuando los recolectores de datos necesitan acceso a múltiples formularios, están fuera de línea o tiene un formulario complejo.",
         "appUsers": "Usuarios móviles"
@@ -181,7 +181,7 @@ const { projectPath, formPath } = useRoutes();
   "fr": {
     "title": "Méthodes d'envoi de données",
     "introduction": [
-      "Il y a plusieurs méthodes pour envoyer des données à ODK Central:",
+      "Il y a plusieurs méthodes pour envoyer des données à Conectados:",
       {
         "full": "Créez des {appUsers} et utilisez l'application Android {collect}. Cela convient particulièrement bien quand les collecteurs de données doivent accéder à plusieurs formulaires, sont hors-ligne, ou ont des formulaires complexes.",
         "appUsers": "Utilisateurs mobiles"
@@ -200,7 +200,7 @@ const { projectPath, formPath } = useRoutes();
   "id": {
     "title": "Pengaturan Kiriman Data",
     "introduction": [
-      "Ada beberapa pengaturan untuk mengirim data ke ODK Central:",
+      "Ada beberapa pengaturan untuk mengirim data ke Conectados:",
       {
         "full": "Buat {appUsers} dan gunakan aplikasi Android {collect}. Ini akan membantu dan memudahkan pengumpul data membutuhkan akses ke berbagai formulir, sedang offline, atau ketika Anda memiliki formulir yang kompleks.",
         "appUsers": "Pengguna Aplikasi"
@@ -219,7 +219,7 @@ const { projectPath, formPath } = useRoutes();
   "it": {
     "title": "Opzioni invio",
     "introduction": [
-      "Esistono diverse opzioni per inviare dati a ODK Central:",
+      "Esistono diverse opzioni per inviare dati a Conectados:",
       {
         "full": "Creare {appUsers} e utilizzare l'applicazione Android {collect}. Questo è più appropriato quando i raccoglitori di dati devono accedere a più formulari, sono offline o nel caso tu abbia un formulario complesso.",
         "appUsers": "Utenti dell'applicazione"
@@ -238,7 +238,7 @@ const { projectPath, formPath } = useRoutes();
   "ja": {
     "title": "フォーム提出方法の選択肢",
     "introduction": [
-      "ODK Centralへのデータ提出方法にはいくつかの選択肢があります。",
+      "Conectadosへのデータ提出方法にはいくつかの選択肢があります。",
       {
         "full": "{appUsers}を作成し、Androidアプリの{collect}を使用して下さい。この方法は、データ収集者が複数のフォームにアクセスする必要がある場合や、オフラインである場合、複雑なフォームを持っている場合などに最適です",
         "appUsers": "アプリユーザー"
@@ -257,7 +257,7 @@ const { projectPath, formPath } = useRoutes();
   "sw": {
     "title": "Chaguzi za Uwasilishaji",
     "introduction": [
-      "Kuna chaguo kadhaa za kuwasilisha data kwa ODK Central:",
+      "Kuna chaguo kadhaa za kuwasilisha data kwa Conectados:",
       {
         "full": "Unda {appUsers} na utumie programu ya Android ya {collect}. Hii inafaa zaidi wakati wakusanyaji wa data wanahitaji ufikiaji wa Fomu nyingi, wako nje ya mtandao, au una Fomu ngumu",
         "appUsers": "Watumiaji wa Programu"

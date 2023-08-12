@@ -1,11 +1,11 @@
 <!--
-Copyright 2019 ODK Central Developers
+Copyright 2019 Conectados Developers
 See the NOTICE file at the top-level directory of this distribution and at
 https://github.com/getodk/central-frontend/blob/master/NOTICE.
 
-This file is part of ODK Central. It is subject to the license terms in
+This file is part of Conectados. It is subject to the license terms in
 the LICENSE file found in the top-level directory of this distribution and at
-https://www.apache.org/licenses/LICENSE-2.0. No part of ODK Central,
+https://www.apache.org/licenses/LICENSE-2.0. No part of Conectados,
 including this file, may be copied, modified, propagated, or distributed
 except according to the terms contained in the LICENSE file.
 -->
@@ -290,7 +290,7 @@ export default {
             "New Submissions will no longer be processed into Entities."
           ],
           [
-            "In addition, the following are true in this version of ODK Central:",
+            "In addition, the following are true in this version of Conectados:",
             [
               "Existing Submissions will remain unencrypted.",
               "In a future version, you will have the option to encrypt existing data."
@@ -351,7 +351,7 @@ export default {
             "Nová podání již nebudou zpracovávána do entit."
           ],
           [
-            "Kromě toho platí pro tuto verzi ODK Central následující:",
+            "Kromě toho platí pro tuto verzi Conectados následující:",
             [
               "Stávající příspěvky zůstanou nezašifrované.",
               "V budoucí verzi budete mít možnost šifrovat stávající data."
@@ -406,7 +406,7 @@ export default {
             "Neue Einreichungen werden nicht mehr zu Entitäten verarbeitet."
           ],
           [
-            "Außerdem treffen die folgenden Punkte in dieser Version von ODK Central zu:",
+            "Außerdem treffen die folgenden Punkte in dieser Version von Conectados zu:",
             [
               "Existierende Übermittlungen bleiben unverschlüsselt.",
               "In einer zukünftigen Version werden Sie die Option haben existierende Daten zu verschlüsseln."
@@ -461,7 +461,7 @@ export default {
             "Los Envíos nuevos ya no se procesarán en Entidades."
           ],
           [
-            "Además, lo siguiente es cierto en esta versión de ODK Central:",
+            "Además, lo siguiente es cierto en esta versión de Conectados:",
             [
               "Los envíos existentes permanecerán sin cifrar.",
               "En una futura versión, tendrá la opción de cifrar los datos existentes."
@@ -516,7 +516,7 @@ export default {
             "Les nouvelles Soumissions ne seront plus transformées en entités."
           ],
           [
-            "En outre, ce qui suit est vrai dans cette version d'ODK Central :",
+            "En outre, ce qui suit est vrai dans cette version d'Conectados :",
             [
               "Les soumissions existantes resteront non chiffrées.",
               "Dans une prochaine version, vous aurez la possibilité de chiffrer les données existantes."
@@ -570,7 +570,7 @@ export default {
             "Anda tidak akan bisa lagi mengubah kiriman di situs web Anda."
           ],
           [
-            "Sebagai tambahan, berikut adalah yang benar ada pada versi ODK Central ini:",
+            "Sebagai tambahan, berikut adalah yang benar ada pada versi Conectados ini:",
             [
               "Kiriman data yang sudah ada akan tetap tidak terenkripsi.",
               "Pada versi yang akan datang, Anda akan memiliki pilihan untuk mengenkripsi data yang sudah ada."
@@ -616,7 +616,7 @@ export default {
             "I nuovi invii non verranno più elaborati in Entità."
           ],
           [
-            "Inoltre, quanto segue è reale in questa versione di ODK Central:",
+            "Inoltre, quanto segue è reale in questa versione di Conectados:",
             [
               "Gli invii esistenti rimarranno non crittografati.",
               "In una versione futura, avrai la possibilità di crittografare i dati esistenti."
@@ -670,7 +670,7 @@ export default {
             "提出されたデータをWebブラウザで編集できなくなります。"
           ],
           [
-            "また、このバージョンのODK Centralでは以下のようになっています。",
+            "また、このバージョンのConectadosでは以下のようになっています。",
             [
               "既存の提出されたフォームは暗号化されずに残ります。",
               "今後のバージョンでは、既存のデータを暗号化するオプションが追加される予定です。"
@@ -719,7 +719,7 @@ export default {
             "Mawasilisho Mapya hayatachakatwa tena kuwa Mashirika"
           ],
           [
-            "kwa kuongeza, yafuatayo ni kweli katika toleo hili la ODK Central:",
+            "kwa kuongeza, yafuatayo ni kweli katika toleo hili la Conectados:",
             [
               "Mawasilisho yaliyopo yatasalia kuwa hayajasimbwa.",
               "katika toleo la baadaye, utakuwa na chaguo la kusimba data iliyopo"

@@ -1,7 +1,7 @@
 Closes #
 
 <!-- 
-Thank you for contributing to ODK Central!
+Thank you for contributing to Conectados!
 
 Before sending this PR, please read
 https://github.com/getodk/central-frontend/blob/master/CONTRIBUTING.md

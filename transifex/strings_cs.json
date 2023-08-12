@@ -665,21 +665,21 @@
     "clickHere": {
       "full": {
         "string": "Pro více informací {clickHere}.",
-        "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nclick here"
+        "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nclick here"
       },
       "clickHere": {
         "string": "klikněte zde",
-        "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nFor more information, {clickHere}."
+        "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nFor more information, {clickHere}."
       }
     },
     "helpArticle": {
       "full": {
         "string": "Pro více informací viz {helpArticle}.",
-        "developer_comment": "{helpArticle} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nthis help article"
+        "developer_comment": "{helpArticle} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nthis help article"
       },
       "helpArticle": {
         "string": "tento článek nápovědy",
-        "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {helpArticle} is in the following text:\n\nFor more information, please see {helpArticle}."
+        "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {helpArticle} is in the following text:\n\nFor more information, please see {helpArticle}."
       }
     },
     "learnMore": {
@@ -689,16 +689,16 @@
   },
   "analytics": {
     "alwaysImprove": {
-      "string": "Neustále se snažíme ODK Central vylepšovat."
+      "string": "Neustále se snažíme Conectados vylepšovat."
     },
     "needFeedback": {
       "full": {
         "string": "K tomu potřebujeme {your} zpětnou vazbu, abychom pochopili, jak Central používáte a jak by pro vás mohl být lepší.",
-        "developer_comment": "\"This\" refers to improving Central.\n\n{your} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nyour"
+        "developer_comment": "\"This\" refers to improving Central.\n\n{your} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nyour"
       },
       "your": {
         "string": "vaší",
-        "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {your} is in the following text:\n\nTo do this, we need {your} feedback, so that we can understand how you are using Central, and how it could be better for you."
+        "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {your} is in the following text:\n\nTo do this, we need {your} feedback, so that we can understand how you are using Central, and how it could be better for you."
       }
     }
   },
@@ -948,19 +948,19 @@
           "0": {
             "full": {
               "string": "{weWillShare} a přijímáme {termsOfService} a {privacyPolicy}.",
-              "developer_comment": "The following are separate strings that will be translated below. They will be formatted within ODK Central, for example, they might be bold or a link.\n\n- {weWillShare} has the text: We are willing to share anonymous usage data monthly with the Central team,\n- {termsOfService} has the text: Terms of Service\n- {privacyPolicy} has the text: Privacy Policy"
+              "developer_comment": "The following are separate strings that will be translated below. They will be formatted within Conectados, for example, they might be bold or a link.\n\n- {weWillShare} has the text: We are willing to share anonymous usage data monthly with the Central team,\n- {termsOfService} has the text: Terms of Service\n- {privacyPolicy} has the text: Privacy Policy"
             },
             "weWillShare": {
               "string": "Jsme ochotni měsíčně sdílet anonymní údaje o používání s centrálním týmem,",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {weWillShare} is in the following text:\n\n{weWillShare} and we accept the {termsOfService} and {privacyPolicy}."
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {weWillShare} is in the following text:\n\n{weWillShare} and we accept the {termsOfService} and {privacyPolicy}."
             },
             "termsOfService": {
               "string": "Podmínky služby",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {termsOfService} is in the following text:\n\n{weWillShare} and we accept the {termsOfService} and {privacyPolicy}."
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {termsOfService} is in the following text:\n\n{weWillShare} and we accept the {termsOfService} and {privacyPolicy}."
             },
             "privacyPolicy": {
               "string": "Zásady ochrany osobních údajů",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {privacyPolicy} is in the following text:\n\n{weWillShare} and we accept the {termsOfService} and {privacyPolicy}."
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {privacyPolicy} is in the following text:\n\n{weWillShare} and we accept the {termsOfService} and {privacyPolicy}."
             }
           },
           "1": {
@@ -1009,11 +1009,11 @@
         "0": {
           "full": {
             "string": "Na kartě {usageReporting} v Nastavení systému můžete zvolit sdílení anonymizovaných údajů o používání nebo kontaktních informací s týmem Central.",
-            "developer_comment": "{usageReporting} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nUsage Reporting"
+            "developer_comment": "{usageReporting} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nUsage Reporting"
           },
           "usageReporting": {
             "string": "Hlášení o použití",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {usageReporting} is in the following text:\n\nIn the {usageReporting} tab in System Settings, you can choose to share anonymized usage data or contact information with the Central team."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {usageReporting} is in the following text:\n\nIn the {usageReporting} tab in System Settings, you can choose to share anonymized usage data or contact information with the Central team."
           }
         },
         "1": {
@@ -1291,11 +1291,11 @@
       "getStarted": {
         "full": {
           "string": "Další informace o tom, jak začít, najdete {clickHere}.",
-          "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nclick here"
+          "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nclick here"
         },
         "clickHere": {
           "string": "klikněte zde",
-          "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nFor more information on how to get started, {clickHere}."
+          "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nFor more information on how to get started, {clickHere}."
         }
       },
       "datasetsWorkflow": {
@@ -1346,11 +1346,11 @@
         "implication": {
           "full": {
             "string": "{count, plural, one {} few {} many {} other {}}",
-            "developer_comment": "{records} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. In its plural form, its text is:\n\n{count} records"
+            "developer_comment": "{records} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. In its plural form, its text is:\n\n{count} records"
           },
           "records": {
             "string": "{count, plural, one {} few {} many {} other {}}",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {records} is in the following text. (The plural form of the text is shown.)\n\nOnce this takes effect, Entities will no longer be generated when Submissions are marked Approved, including {records} we found that have neither been marked Approved nor Rejected."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {records} is in the following text. (The plural form of the text is shown.)\n\nOnce this takes effect, Entities will no longer be generated when Submissions are marked Approved, including {records} we found that have neither been marked Approved nor Rejected."
           }
         }
       },
@@ -1450,7 +1450,7 @@
           "string": "Náhled nedokončil zpracování tohoto formuláře. Aktualizujte prosím později a zkuste to znovu."
         },
         "notOpen": {
-          "string": "V této verzi ODK Central je náhled k dispozici pouze pro formuláře v otevřeném stavu."
+          "string": "V této verzi Conectados je náhled k dispozici pouze pro formuláře v otevřeném stavu."
         }
       }
     },
@@ -1480,11 +1480,11 @@
             "deleted": {
               "full": {
                 "string": "",
-                "developer_comment": "This text is shown in a list of events. {name} is the name of a user, a team of users, or a Public Access Link.\n\n{deletedSubmission} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\n(deleted Submission {id})"
+                "developer_comment": "This text is shown in a list of events. {name} is the name of a user, a team of users, or a Public Access Link.\n\n{deletedSubmission} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\n(deleted Submission {id})"
               },
               "deletedSubmission": {
                 "string": "",
-                "developer_comment": "This text is shown in a list of events. {id} is the Submission instance ID.\n\nThis text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {deletedSubmission} is in the following text:\n\n{deletedSubmission} uploaded by {name}"
+                "developer_comment": "This text is shown in a list of events. {id} is the Submission instance ID.\n\nThis text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {deletedSubmission} is in the following text:\n\n{deletedSubmission} uploaded by {name}"
               }
             }
           }
@@ -1566,21 +1566,21 @@
         "0": {
           "full": {
             "string": "Uživatelé aplikace se používají ke sběru dat z aplikace, jako např. {collect}. Obvykle představují společnou roli, jako je „Vakcinátor“, ale mohou představovat i jednotlivce. Uživatelé aplikace v tomto projektu mohou stahovat a používat pouze formuláře v rámci tohoto projektu. Když vytvoříte nového uživatele aplikace, nebude mít nejprve přístup k žádným formulářům. Chcete-li nastavit formuláře, ke kterým má každý uživatel aplikace přístup, použijte kartu {formAccess}.",
-            "developer_comment": "{collect} is a link whose text is \"ODK Collect\".\n\n{formAccess} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nForm Access"
+            "developer_comment": "{collect} is a link whose text is \"ODK Collect\".\n\n{formAccess} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nForm Access"
           },
           "formAccess": {
             "string": "Přístup k formuláři",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {formAccess} is in the following text:\n\nApp Users are used to collect data from an application such as {collect}. They typically represent a shared role such as “Vaccinator” but may also represent individuals. App Users in this Project can only download and use Forms within this Project. When you create a new App User, it will not have access to any Forms at first. To set the Forms each App User may access, use the {formAccess} tab."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {formAccess} is in the following text:\n\nApp Users are used to collect data from an application such as {collect}. They typically represent a shared role such as “Vaccinator” but may also represent individuals. App Users in this Project can only download and use Forms within this Project. When you create a new App User, it will not have access to any Forms at first. To set the Forms each App User may access, use the {formAccess} tab."
           }
         },
         "1": {
           "full": {
             "string": "Uživatelé aplikace jsou nejvhodnější, když sběratelé dat potřebují přístup k více formulářům, jsou offline nebo máte složitý formulář. Pokud potřebujete respondenty k vlastnímu hlášení nebo máte pouze formulář online, {clickHere} pro další možnosti.",
-            "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nclick here"
+            "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nclick here"
           },
           "clickHere": {
             "string": "klikněte zde",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nApp Users are most appropriate when data collectors need access to multiple Forms, are offline, or you have a complex Form. If you need respondents to self-report or have an online-only form, {clickHere} for other options."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nApp Users are most appropriate when data collectors need access to multiple Forms, are offline, or you have a complex Form. If you need respondents to self-report or have an online-only form, {clickHere} for other options."
           }
         }
       },
@@ -1627,11 +1627,11 @@
         "2": {
           "full": {
             "string": "Možná budete chtít navštívit toto  {formAccessSettings} projektu a dát tomuto uživateli přístup k formulářům.",
-            "developer_comment": "{formAccessSettings} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nForm Access settings"
+            "developer_comment": "{formAccessSettings} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nForm Access settings"
           },
           "formAccessSettings": {
             "string": "Nastavení přístupu k formuláři",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {formAccessSettings} is in the following text:\n\nYou may wish to visit this Project’s {formAccessSettings} to give this user access to Forms."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {formAccessSettings} is in the following text:\n\nYou may wish to visit this Project’s {formAccessSettings} to give this user access to Forms."
           }
         }
       },
@@ -1658,21 +1658,21 @@
           "managed": {
             "full": {
               "string": "Toto je {managedCode}.",
-              "developer_comment": "{managedCode} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nManaged QR Code"
+              "developer_comment": "{managedCode} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nManaged QR Code"
             },
             "managedCode": {
               "string": "Spravovaný QR kód",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {managedCode} is in the following text:\n\nThis is a {managedCode}."
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {managedCode} is in the following text:\n\nThis is a {managedCode}."
             }
           },
           "legacy": {
             "full": {
               "string": "Toto je {legacyCode}.",
-              "developer_comment": "{legacyCode} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nLegacy QR Code"
+              "developer_comment": "{legacyCode} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nLegacy QR Code"
             },
             "legacyCode": {
               "string": "Starší QR kód",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {legacyCode} is in the following text:\n\nThis is a {legacyCode}."
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {legacyCode} is in the following text:\n\nThis is a {legacyCode}."
             }
           }
         },
@@ -1690,29 +1690,29 @@
           "managed": {
             "full": {
               "string": "Pro staré chování, {switchToLegacy}.",
-              "developer_comment": "The following are separate strings that will be translated below. They will be formatted within ODK Central, for example, they might be bold or a link.\n\n- {switchToLegacy} has the text: switch to a {legacyCode}\n- {legacyCode} has the text: Legacy QR Code"
+              "developer_comment": "The following are separate strings that will be translated below. They will be formatted within Conectados, for example, they might be bold or a link.\n\n- {switchToLegacy} has the text: switch to a {legacyCode}\n- {legacyCode} has the text: Legacy QR Code"
             },
             "switchToLegacy": {
               "string": "přepněte na {legacyCode}",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {switchToLegacy} is in the following text:\n\nFor the old behavior, {switchToLegacy}.\n\nNote that {legacyCode} is a separate string that will be translated below. Its text is:\n\nLegacy QR Code"
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {switchToLegacy} is in the following text:\n\nFor the old behavior, {switchToLegacy}.\n\nNote that {legacyCode} is a separate string that will be translated below. Its text is:\n\nLegacy QR Code"
             },
             "legacyCode": {
               "string": "Starší QR kód",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {legacyCode} is in the following text:\n\nFor the old behavior, switch to a {legacyCode}."
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {legacyCode} is in the following text:\n\nFor the old behavior, switch to a {legacyCode}."
             }
           },
           "legacy": {
             "full": {
               "string": "Pro více kontrolovaný a spolehlivý proces, {switchToManaged}.",
-              "developer_comment": "The following are separate strings that will be translated below. They will be formatted within ODK Central, for example, they might be bold or a link.\n\n- {switchToManaged} has the text: switch to a {managedCode}\n- {managedCode} has the text: Managed QR Code"
+              "developer_comment": "The following are separate strings that will be translated below. They will be formatted within Conectados, for example, they might be bold or a link.\n\n- {switchToManaged} has the text: switch to a {managedCode}\n- {managedCode} has the text: Managed QR Code"
             },
             "switchToManaged": {
               "string": "přepněte na {managedCode}",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {switchToManaged} is in the following text:\n\nFor a more controlled and foolproof process, {switchToManaged}.\n\nNote that {managedCode} is a separate string that will be translated below. Its text is:\n\nManaged QR Code"
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {switchToManaged} is in the following text:\n\nFor a more controlled and foolproof process, {switchToManaged}.\n\nNote that {managedCode} is a separate string that will be translated below. Its text is:\n\nManaged QR Code"
             },
             "managedCode": {
               "string": "Spravovaný QR kód",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {managedCode} is in the following text:\n\nFor a more controlled and foolproof process, switch to a {managedCode}."
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {managedCode} is in the following text:\n\nFor a more controlled and foolproof process, switch to a {managedCode}."
             }
           }
         },
@@ -1862,11 +1862,11 @@
         "dropToPrepare": {
           "full": {
             "string": "Přetáhněte nyní {countOfFiles} a připravte se na upload do tohoto formuláře.",
-            "developer_comment": "{countOfFiles} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. In its plural form, its text is:\n\n{count} files"
+            "developer_comment": "{countOfFiles} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. In its plural form, its text is:\n\n{count} files"
           },
           "countOfFiles": {
             "string": "{count, plural, one {{count} soubor} few {{count} souborů} many {{count} souborů} other {{count} souborů}}",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {countOfFiles} is in the following text:\n\nDrop now to prepare {countOfFiles} for upload to this Form."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {countOfFiles} is in the following text:\n\nDrop now to prepare {countOfFiles} for upload to this Form."
           }
         }
       },
@@ -1874,21 +1874,21 @@
         "matched": {
           "full": {
             "string": "{count, plural, one {{countOfFiles} připraven k nahrání} few {{countOfFiles} připraveny k nahrání} many {{countOfFiles} připraveno k nahrání} other {{countOfFiles} připraveno k nahrání}}",
-            "developer_comment": "{countOfFiles} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. In its plural form, its text is:\n\n{count} files"
+            "developer_comment": "{countOfFiles} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. In its plural form, its text is:\n\n{count} files"
           },
           "countOfFiles": {
             "string": "{count, plural, one {{count} soubor} few {{count} soubory} many {{count} souborů} other {{count} souborů}}",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {countOfFiles} is in the following text. (The plural form of the text is shown.)\n\n{countOfFiles} ready for upload."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {countOfFiles} is in the following text. (The plural form of the text is shown.)\n\n{countOfFiles} ready for upload."
           }
         },
         "someUnmatched": {
           "full": {
             "string": "{count, plural, one {{countOfFiles} má název, který neznáme a bude ignorováno. Chcete-li jej nahrát, přejmenujte jej, nebo přetáhněte na svůj cíl.} few {{countOfFiles}  mají název, který neznáme a budou ignorovány. Chcete-li je nahrát, přejmenujte je, nebo přetáhněte na svůj cíl.} many {{countOfFiles} mají název, který neznáme a budou ignorovány. Chcete-li je nahrát, přejmenujte je, nebo přetáhněte na svůj cíl.} other {{countOfFiles} mají název, který neznáme a budou ignorovány. Chcete-li je nahrát, přejmenujte je, nebo přetáhněte na svůj cíl.}}",
-            "developer_comment": "{countOfFiles} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. In its plural form, its text is:\n\n{count} files"
+            "developer_comment": "{countOfFiles} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. In its plural form, its text is:\n\n{count} files"
           },
           "countOfFiles": {
             "string": "{count, plural, one {{count} soubor} few {{count} soubory} many {{count} soubory} other {{count} souborů}}",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {countOfFiles} is in the following text. (The plural form of the text is shown.)\n\n{countOfFiles} have a name we don’t recognize and will be ignored. To upload them, rename them or drag them individually onto their targets."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {countOfFiles} is in the following text. (The plural form of the text is shown.)\n\n{countOfFiles} have a name we don’t recognize and will be ignored. To upload them, rename them or drag them individually onto their targets."
           }
         },
         "noneMatched": {
@@ -1972,21 +1972,21 @@
         "0": {
           "full": {
             "string": "Chcete-li nahrát soubory, můžete {dragAndDrop} do tabulky na této stránce  jeden nebo více souborů.",
-            "developer_comment": "{dragAndDrop} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\ndrag and drop"
+            "developer_comment": "{dragAndDrop} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\ndrag and drop"
           },
           "dragAndDrop": {
             "string": "přetáhněte soubory sem",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {dragAndDrop} is in the following text:\n\nTo upload files, you can {dragAndDrop} one or more files onto the table on this page."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {dragAndDrop} is in the following text:\n\nTo upload files, you can {dragAndDrop} one or more files onto the table on this page."
           }
         },
         "1": {
           "full": {
             "string": "Pokud byste raději vybrali soubory z příkazového řádku, zajistěte, aby se jejich názvy shodovaly se jmény v tabulce a poté {clickHere}.",
-            "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nclick here to choose"
+            "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nclick here to choose"
           },
           "clickHere": {
             "string": "kliknutím vyberte",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nIf you would rather select files from a prompt, ensure that their names match the ones in the table and then {clickHere}."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nIf you would rather select files from a prompt, ensure that their names match the ones in the table and then {clickHere}."
           }
         }
       }
@@ -2074,11 +2074,11 @@
               "link": {
                 "full": {
                   "string": "Pokud jste provedli změny v samotném formuláři, včetně textu otázek nebo logických pravidel, je nyní čas na {upload} nového XML nebo XLSForm.",
-                  "developer_comment": "This refers to changes to the Form definition as opposed to just the Attachments associated with the Form. The word \"XLSForm\" should not be translated.\n\n{upload} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nupload"
+                  "developer_comment": "This refers to changes to the Form definition as opposed to just the Attachments associated with the Form. The word \"XLSForm\" should not be translated.\n\n{upload} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nupload"
                 },
                 "upload": {
                   "string": "nahrát",
-                  "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {upload} is in the following text:\n\nIf you have made changes to the Form itself, including question text or logic rules, now is the time to {upload} the new XML or XLSForm."
+                  "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {upload} is in the following text:\n\nIf you have made changes to the Form itself, including question text or logic rules, now is the time to {upload} the new XML or XLSForm."
                 }
               }
             }
@@ -2093,11 +2093,11 @@
             "0": {
               "full": {
                 "string": "Návrh vašeho formuláře odkazuje na soubory, které jsou potřebné k prezentaci formuláře. Jejich nové nebo aktualizované kopie můžete nahrát k distribuci na kartě {formAttachments}.",
-                "developer_comment": "{formAttachments} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nForm Attachments"
+                "developer_comment": "{formAttachments} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nForm Attachments"
               },
               "formAttachments": {
                 "string": "Přílohy formuláře",
-                "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {formAttachments} is in the following text:\n\nYour Form design references files that are needed in order to present your Form. You can upload new or updated copies of these for distribution under the {formAttachments} tab."
+                "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {formAttachments} is in the following text:\n\nYour Form design references files that are needed in order to present your Form. You can upload new or updated copies of these for distribution under the {formAttachments} tab."
               }
             }
           }
@@ -2111,11 +2111,11 @@
             "0": {
               "full": {
                 "string": "Můžete {test} formulář abyste se ujistili, že funguje tak, jak očekáváte. Testovací odeslání nejsou součástí vašich konečných údajů.",
-                "developer_comment": "{test} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\ntest"
+                "developer_comment": "{test} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\ntest"
               },
               "test": {
                 "string": "otestovat",
-                "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {test} is in the following text:\n\nYou can {test} a Form to be sure it works the way you expect. Test Submissions are not included in your final data."
+                "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {test} is in the following text:\n\nYou can {test} a Form to be sure it works the way you expect. Test Submissions are not included in your final data."
               }
             }
           }
@@ -2133,11 +2133,11 @@
               "link": {
                 "full": {
                   "string": "Pokud jste si jisti, že je koncept připraven a chcete jej uvést do provozu v terénu, můžete ho {publish}.",
-                  "developer_comment": "{publish} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\npublish"
+                  "developer_comment": "{publish} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\npublish"
                 },
                 "publish": {
                   "string": "publikovat",
-                  "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {publish} is in the following text:\n\nWhen you are sure your Draft is ready and you wish to roll it out to your devices in the field, you can {publish} it."
+                  "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {publish} is in the following text:\n\nWhen you are sure your Draft is ready and you wish to roll it out to your devices in the field, you can {publish} it."
                 }
               }
             }
@@ -2154,21 +2154,21 @@
         "attachments": {
           "full": {
             "string": "Neposkytli jste všechny {formAttachments}, které váš formulář vyžaduje. Pokud chcete, můžete to ignorovat, ale později budete muset vytvořit novou verzi návrhu a tyto přílohy poskytnout.",
-            "developer_comment": "This is a warning shown to the user.\n\n{formAttachments} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nForm Attachments"
+            "developer_comment": "This is a warning shown to the user.\n\n{formAttachments} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nForm Attachments"
           },
           "formAttachments": {
             "string": "Přílohy formuláře",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {formAttachments} is in the following text:\n\nYou have not provided all the {formAttachments} that your Form requires. You can ignore this if you wish, but you will need to make a new Draft version to provide those Attachments later."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {formAttachments} is in the following text:\n\nYou have not provided all the {formAttachments} that your Form requires. You can ignore this if you wish, but you will need to make a new Draft version to provide those Attachments later."
           }
         },
         "testing": {
           "full": {
             "string": "Ještě jste nenahráli {tested} nahráním testovacího podání. Nemusíte to dělat, ale důrazně to doporučujeme.",
-            "developer_comment": "This is a warning shown to the user.\n\n{tested} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\ntested this Form"
+            "developer_comment": "This is a warning shown to the user.\n\n{tested} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\ntested this Form"
           },
           "tested": {
             "string": "otestovaný tento formulář",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {tested} is in the following text:\n\nYou have not yet {tested} by uploading a test Submission. You do not have to do this, but it is highly recommended."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {tested} is in the following text:\n\nYou have not yet {tested} by uploading a test Submission. You do not have to do this, but it is highly recommended."
           }
         }
       },
@@ -2201,11 +2201,11 @@
         "introduction": {
           "full": {
             "string": "{inAddition} zveřejněním této definice formuláře dojde k následujícím změnám v tomto projektu:",
-            "developer_comment": "{inAddition} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nIn addition,"
+            "developer_comment": "{inAddition} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nIn addition,"
           },
           "inAddition": {
             "string": "Navíc,",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {inAddition} is in the following text:\n\n{inAddition} publishing this Form definition will make the following changes to this Project:"
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {inAddition} is in the following text:\n\n{inAddition} publishing this Form definition will make the following changes to this Project:"
           }
         },
         "newDataset": {
@@ -2227,11 +2227,11 @@
         "versionCaption": {
           "full": {
             "string": "{draftVersion} tohoto formuláře.",
-            "developer_comment": "{draftVersion} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nDraft version"
+            "developer_comment": "{draftVersion} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nDraft version"
           },
           "draftVersion": {
             "string": "Verze konceptu",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {draftVersion} is in the following text:\n\n{draftVersion} of this Form."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {draftVersion} is in the following text:\n\n{draftVersion} of this Form."
           }
         },
         "action": {
@@ -2376,11 +2376,11 @@
         "1": {
           "full": {
             "string": "Pokud ještě žádný nemáte, je tu {tools} který vám pomůže navrhnout formulář.",
-            "developer_comment": "{tools} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\ntools available"
+            "developer_comment": "{tools} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\ntools available"
           },
           "tools": {
             "string": "dostupný nástroj",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {tools} is in the following text:\n\nIf you don’t already have one, there are {tools} to help you design your Form."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {tools} is in the following text:\n\nIf you don’t already have one, there are {tools} to help you design your Form."
           }
         },
         "2": {
@@ -2390,11 +2390,11 @@
       "dropZone": {
         "full": {
           "string": "Sem přetáhněte soubor nebo {chooseOne} a nahrajte.",
-          "developer_comment": "{chooseOne} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nchoose one"
+          "developer_comment": "{chooseOne} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nchoose one"
         },
         "chooseOne": {
           "string": "vyberte jeden",
-          "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {chooseOne} is in the following text:\n\nDrop a file here, or {chooseOne} to upload."
+          "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {chooseOne} is in the following text:\n\nDrop a file here, or {chooseOne} to upload."
         }
       },
       "action": {
@@ -2474,11 +2474,11 @@
           "versionCaption": {
             "full": {
               "string": "{draftVersion} tohoto formuláře.",
-              "developer_comment": "{draftVersion} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nDraft version"
+              "developer_comment": "{draftVersion} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nDraft version"
             },
             "draftVersion": {
               "string": "Verze konceptu",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {draftVersion} is in the following text:\n\n{draftVersion} of this Form."
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {draftVersion} is in the following text:\n\n{draftVersion} of this Form."
             }
           }
         }
@@ -2488,11 +2488,11 @@
       "version": {
         "full": {
           "string": "{publishedVersion} tohoto formuláře.",
-          "developer_comment": "{publishedVersion} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nPublished version"
+          "developer_comment": "{publishedVersion} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nPublished version"
         },
         "publishedVersion": {
           "string": "Publikovaná verze",
-          "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {publishedVersion} is in the following text:\n\n{publishedVersion} of this Form."
+          "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {publishedVersion} is in the following text:\n\n{publishedVersion} of this Form."
         }
       },
       "stateCaption": {
@@ -2509,11 +2509,11 @@
       "submissions": {
         "full": {
           "string": "{count, plural, one {{submissions} byl pro tento formulář uložen.} few {{submissions} byly pro tento formulář uloženy.} many {{submissions} bylo pro tento formulář uloženo.} other {{submissions} bylo pro tento formulář uloženo.}}",
-          "developer_comment": "The count of Submissions is shown separately above this text.\n\n{submissions} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. In its plural form, its text is:\n\nSubmissions"
+          "developer_comment": "The count of Submissions is shown separately above this text.\n\n{submissions} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. In its plural form, its text is:\n\nSubmissions"
         },
         "submissions": {
           "string": "{count, plural, one {Příspěvek} few {Příspěvky} many {Příspěvků} other {Příspěvků}}",
-          "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {submissions} is in the following text. (The plural form of the text is shown.)\n\n{submissions} have been saved for this Form."
+          "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {submissions} is in the following text. (The plural form of the text is shown.)\n\n{submissions} have been saved for this Form."
         }
       },
       "datasetsLinked": {
@@ -2562,11 +2562,11 @@
         "body": {
           "full": {
             "string": "Chcete-li nastavit stav tohoto formuláře, navštivte {formAccessSettings} Projektu.",
-            "developer_comment": "{formAccessSettings} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nForm Access settings"
+            "developer_comment": "{formAccessSettings} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nForm Access settings"
           },
           "formAccessSettings": {
             "string": "Nastavení přístupu k formuláři",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {formAccessSettings} is in the following text:\n\nTo set this Form’s state, please visit the Project {formAccessSettings}."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {formAccessSettings} is in the following text:\n\nTo set this Form’s state, please visit the Project {formAccessSettings}."
           }
         }
       },
@@ -2785,7 +2785,7 @@
       },
       "version": {
         "string": "Verze",
-        "developer_comment": "This is the text of a link that shows what version of ODK Central is in use."
+        "developer_comment": "This is the text of a link that shows what version of Conectados is in use."
       }
     },
     "NavbarLinks": {
@@ -2797,7 +2797,7 @@
     "NavbarLocaleDropdown": {
       "helpTranslate": {
         "string": "Nápověda k překladu Central",
-        "developer_comment": "This is shown below the list of languages and links to the ODK Central translation guide."
+        "developer_comment": "This is shown below the list of languages and links to the Conectados translation guide."
       }
     },
     "NotFound": {
@@ -2829,11 +2829,11 @@
         "1": {
           "full": {
             "string": "{noUndo}, ale schopnost vyjmout projekt z archivu je plánována do budoucího vydání.",
-            "developer_comment": "{noUndo} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nThis action cannot be undone"
+            "developer_comment": "{noUndo} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nThis action cannot be undone"
           },
           "noUndo": {
             "string": "Tuto akci nelze vrátit zpět",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {noUndo} is in the following text:\n\n{noUndo}, but the ability to unarchive a Project is planned for a future release."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {noUndo} is in the following text:\n\n{noUndo}, but the ability to unarchive a Project is planned for a future release."
           }
         }
       }
@@ -2906,7 +2906,7 @@
             },
             "1": {
               "0": {
-                "string": "Kromě toho platí pro tuto verzi ODK Central následující:"
+                "string": "Kromě toho platí pro tuto verzi Conectados následující:"
               },
               "1": {
                 "0": {
@@ -2928,11 +2928,11 @@
             "2": {
               "full": {
                 "string": "{here} se dozvíte více o šifrování. Pokud to zní jako něco, co chcete, pokračujte stisknutím tlačítka Další.",
-                "developer_comment": "{here} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nhere"
+                "developer_comment": "{here} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nhere"
               },
               "here": {
                 "string": "zde ",
-                "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {here} is in the following text:\n\nYou can learn more about encryption {here}. If this sounds like something you want, press Next to proceed."
+                "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {here} is in the following text:\n\nYou can learn more about encryption {here}. If this sounds like something you want, press Next to proceed."
               }
             }
           }
@@ -2945,11 +2945,11 @@
             "1": {
               "full": {
                 "string": "Pokud ztratíte přístupovou frázi, neexistuje {no} způsob, jak ji nebo svá data obnovit!",
-                "developer_comment": "{no} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nno"
+                "developer_comment": "{no} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nno"
               },
               "no": {
                 "string": "žádný",
-                "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {no} is in the following text:\n\nIf you lose the passphrase, there is {no} way to recover it or your data!"
+                "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {no} is in the following text:\n\nIf you lose the passphrase, there is {no} way to recover it or your data!"
               }
             }
           }
@@ -3014,43 +3014,43 @@
         "1": {
           "full": {
             "string": "{open}  Formuláře jsou k dispozici ke stažení a přijímají nová podání.",
-            "developer_comment": "{open} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nOpen"
+            "developer_comment": "{open} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nOpen"
           },
           "open": {
             "string": "Otevřené",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {open} is in the following text:\n\n{open} Forms are available to download and will accept new Submissions."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {open} is in the following text:\n\n{open} Forms are available to download and will accept new Submissions."
           }
         },
         "2": {
           "full": {
             "string": " {closing} Formuláře přijímají nová podání, ale {not}jsou k dispozici ke stažení.",
-            "developer_comment": "The following are separate strings that will be translated below. They will be formatted within ODK Central, for example, they might be bold or a link.\n\n- {closing} has the text: Closing\n- {not} has the text: not"
+            "developer_comment": "The following are separate strings that will be translated below. They will be formatted within Conectados, for example, they might be bold or a link.\n\n- {closing} has the text: Closing\n- {not} has the text: not"
           },
           "closing": {
             "string": "Uzavřené",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {closing} is in the following text:\n\n{closing} Forms will accept new Submissions, but are {not} available to download."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {closing} is in the following text:\n\n{closing} Forms will accept new Submissions, but are {not} available to download."
           },
           "not": {
             "string": "nejsou",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {not} is in the following text:\n\n{closing} Forms will accept new Submissions, but are {not} available to download."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {not} is in the following text:\n\n{closing} Forms will accept new Submissions, but are {not} available to download."
           }
         },
         "3": {
           "full": {
             "string": " {closed} Formuláře {not1}jsou k dispozici ke stažení a {not2}přijímají nová podání.",
-            "developer_comment": "The following are separate strings that will be translated below. They will be formatted within ODK Central, for example, they might be bold or a link.\n\n- {closed} has the text: Closed\n- {not1} has the text: not\n- {not2} has the text: not"
+            "developer_comment": "The following are separate strings that will be translated below. They will be formatted within Conectados, for example, they might be bold or a link.\n\n- {closed} has the text: Closed\n- {not1} has the text: not\n- {not2} has the text: not"
           },
           "closed": {
             "string": "Uzavřené",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {closed} is in the following text:\n\n{closed} Forms are {not1} available to download and will {not2} accept new Submissions."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {closed} is in the following text:\n\n{closed} Forms are {not1} available to download and will {not2} accept new Submissions."
           },
           "not1": {
             "string": "ne",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {not1} is in the following text:\n\n{closed} Forms are {not1} available to download and will {not2} accept new Submissions."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {not1} is in the following text:\n\n{closed} Forms are {not1} available to download and will {not2} accept new Submissions."
           },
           "not2": {
             "string": "ne",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {not2} is in the following text:\n\n{closed} Forms are {not1} available to download and will {not2} accept new Submissions."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {not2} is in the following text:\n\n{closed} Forms are {not1} available to download and will {not2} accept new Submissions."
           }
         }
       }
@@ -3124,11 +3124,11 @@
       "instructions": {
         "full": {
           "string": "Přidejte poznámky k projektu, odkazy, pokyny a další zdroje do tohoto prostoru v {projectSettings}.",
-          "developer_comment": "This is shown in place of an empty project description and serves as a guide for where and how to change the description.\n\n{projectSettings} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nProject Settings"
+          "developer_comment": "This is shown in place of an empty project description and serves as a guide for where and how to change the description.\n\n{projectSettings} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nProject Settings"
         },
         "projectSettings": {
           "string": "Nastavení Projektu",
-          "developer_comment": "This is shown in place of an empty project description and serves as a guide for where and how to change the description.\n\nThis text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {projectSettings} is in the following text:\n\nAdd Project notes, links, instructions and other resources to this space in {projectSettings}."
+          "developer_comment": "This is shown in place of an empty project description and serves as a guide for where and how to change the description.\n\nThis text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {projectSettings} is in the following text:\n\nAdd Project notes, links, instructions and other resources to this space in {projectSettings}."
         }
       },
       "note": {
@@ -3152,15 +3152,15 @@
             "0": {
               "full": {
                 "string": "Šifrování dat příspěvků je {enabled} pro tento projekt.",
-                "developer_comment": "{enabled} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nenabled"
+                "developer_comment": "{enabled} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nenabled"
               },
               "enabled": {
                 "string": "povoleno",
-                "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {enabled} is in the following text:\n\nSubmission data encryption is {enabled} for this Project."
+                "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {enabled} is in the following text:\n\nSubmission data encryption is {enabled} for this Project."
               }
             },
             "1": {
-              "string": "V této verzi ODK Central není možné šifrování zakázat, jakmile je zapnuto."
+              "string": "V této verzi Conectados není možné šifrování zakázat, jakmile je zapnuto."
             }
           }
         },
@@ -3183,7 +3183,7 @@
             "string": "Tento projekt byl archivován."
           },
           "1": {
-            "string": "V této verzi ODK Central nelze archivovat Projekt. Schopnost vyjmout projekt z archivu je však naplánována na budoucí vydání."
+            "string": "V této verzi Conectados nelze archivovat Projekt. Schopnost vyjmout projekt z archivu je však naplánována na budoucí vydání."
           }
         }
       },
@@ -3212,41 +3212,41 @@
       },
       "introduction": {
         "0": {
-          "string": "Existuje několik možností pro odesílání dat do ODK Central:",
+          "string": "Existuje několik možností pro odesílání dat do Conectados:",
           "developer_comment": "This text is shown above a list of options for submitting data."
         },
         "1": {
           "full": {
             "string": "Vytvořte {appUsers} a použijte {collect} aplikaci pro Android. To je nejvhodnější, pokud sběratelé dat potřebují přístup k více formulářům, jsou offline, nebo máte složitý formulář.",
-            "developer_comment": "This text is shown in a list of options for submitting data. {collect} is a link whose text is \"ODK Collect\".\n\n{appUsers} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nApp Users"
+            "developer_comment": "This text is shown in a list of options for submitting data. {collect} is a link whose text is \"ODK Collect\".\n\n{appUsers} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nApp Users"
           },
           "appUsers": {
             "string": "Uživatele aplikace",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {appUsers} is in the following text:\n\nCreate {appUsers} and use the {collect} Android application. This is most appropriate when data collectors need access to multiple Forms, are offline, or you have a complex Form."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {appUsers} is in the following text:\n\nCreate {appUsers} and use the {collect} Android application. This is most appropriate when data collectors need access to multiple Forms, are offline, or you have a complex Form."
           }
         },
         "2": {
           "full": {
             "string": "Vytvořte jeden  nebo více {publicLinks} a sdílejte je s respondenty, kteří se budou sami reportovat.",
-            "developer_comment": "This text is shown in a list of options for submitting data.\n\n{publicLinks} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nPublic Access Links"
+            "developer_comment": "This text is shown in a list of options for submitting data.\n\n{publicLinks} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nPublic Access Links"
           },
           "publicLinks": {
             "string": "Veřejně přístupných odkazů",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {publicLinks} is in the following text:\n\nCreate one or more {publicLinks} to share with respondents who will self-report."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {publicLinks} is in the following text:\n\nCreate one or more {publicLinks} to share with respondents who will self-report."
           }
         },
         "3": {
           "full": {
             "string": "Vytvořte {webUser} s rolí {dataCollector} pro každého jednotlivce, který bude shromažďovat data. Tito uživatelé se přihlásí do Central a vyplní tento formulář ve webovém prohlížeči. Projektoví manažeři mohou také vytvářet příspěvky z webového prohlížeče.",
-            "developer_comment": "This text is shown in a list of options for submitting data.\n\nThe following are separate strings that will be translated below. They will be formatted within ODK Central, for example, they might be bold or a link.\n\n- {webUser} has the text: Web User\n- {dataCollector} has the text: Data Collector"
+            "developer_comment": "This text is shown in a list of options for submitting data.\n\nThe following are separate strings that will be translated below. They will be formatted within Conectados, for example, they might be bold or a link.\n\n- {webUser} has the text: Web User\n- {dataCollector} has the text: Data Collector"
           },
           "webUser": {
             "string": "Webového uživatele",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {webUser} is in the following text:\n\nCreate a {webUser} with the Role of {dataCollector} for each individual who will be collecting data. These Users will log into Central to fill out this Form in a web browser. Project Managers can also create Submissions from a web browser."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {webUser} is in the following text:\n\nCreate a {webUser} with the Role of {dataCollector} for each individual who will be collecting data. These Users will log into Central to fill out this Form in a web browser. Project Managers can also create Submissions from a web browser."
           },
           "dataCollector": {
             "string": "Sběrač dat",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {dataCollector} is in the following text:\n\nCreate a {webUser} with the Role of {dataCollector} for each individual who will be collecting data. These Users will log into Central to fill out this Form in a web browser. Project Managers can also create Submissions from a web browser."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {dataCollector} is in the following text:\n\nCreate a {webUser} with the Role of {dataCollector} for each individual who will be collecting data. These Users will log into Central to fill out this Form in a web browser. Project Managers can also create Submissions from a web browser."
           }
         }
       }
@@ -3260,31 +3260,31 @@
         "1": {
           "full": {
             "string": "{projectManagers} mohou provádět jakékoli administrativní úkoly související s tímto projektem a mohou vyplnit formuláře ve webovém prohlížeči",
-            "developer_comment": "This text is shown in a list of Roles.\n\n{projectManagers} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nProject Managers"
+            "developer_comment": "This text is shown in a list of Roles.\n\n{projectManagers} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nProject Managers"
           },
           "projectManagers": {
             "string": "Projektoví manažeři",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {projectManagers} is in the following text:\n\n{projectManagers} can perform any administrative task related to this Project and can fill Forms out in a web browser"
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {projectManagers} is in the following text:\n\n{projectManagers} can perform any administrative task related to this Project and can fill Forms out in a web browser"
           }
         },
         "2": {
           "full": {
             "string": "{projectViewers} mohou přistupovat a stahovat všechna data formuláře v tomto projektu, ale nemohou provádět žádné změny nastavení nebo dat",
-            "developer_comment": "This text is shown in a list of Roles.\n\n{projectViewers} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nProject Viewers"
+            "developer_comment": "This text is shown in a list of Roles.\n\n{projectViewers} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nProject Viewers"
           },
           "projectViewers": {
             "string": "Prohlížeči Projektu",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {projectViewers} is in the following text:\n\n{projectViewers} can access and download all Form data in this Project, but cannot make any changes to settings or data"
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {projectViewers} is in the following text:\n\n{projectViewers} can access and download all Form data in this Project, but cannot make any changes to settings or data"
           }
         },
         "3": {
           "full": {
             "string": "{dataCollectors} mohou vyplnit formuláře ve webovém prohlížeči, ale nemohou zobrazit ani změnit data nebo nastavení",
-            "developer_comment": "This text is shown in a list of Roles.\n\n{dataCollectors} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nData Collectors"
+            "developer_comment": "This text is shown in a list of Roles.\n\n{dataCollectors} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nData Collectors"
           },
           "dataCollectors": {
             "string": "Sběrači dat",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {dataCollectors} is in the following text:\n\n{dataCollectors} can fill Forms out in a web browser, but cannot view or change data or settings"
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {dataCollectors} is in the following text:\n\n{dataCollectors} can fill Forms out in a web browser, but cannot view or change data or settings"
           }
         }
       },
@@ -3374,21 +3374,21 @@
         "0": {
           "full": {
             "string": "Kdokoli s odkazem na veřejný přístup může vyplnit tento formulář ve webovém prohlížeči. Můžete vytvořit více odkazů pro sledování různých distribucí formuláře, abyste omezili, jak dlouho má určitá skupina lidí přístup k formuláři a další. Tyto odkazy budou fungovat, pouze pokud je formulář ve {state} Open.",
-            "developer_comment": "{state} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nstate"
+            "developer_comment": "{state} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nstate"
           },
           "state": {
             "string": "stavu",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {state} is in the following text:\n\nAnyone with a Public Access Link can fill out this Form in a web browser. You can create multiple Links to track different distributions of the Form, to limit how long a specific group of people has access to the Form, and more. These links will only work if the Form is in the Open {state}."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {state} is in the following text:\n\nAnyone with a Public Access Link can fill out this Form in a web browser. You can create multiple Links to track different distributions of the Form, to limit how long a specific group of people has access to the Form, and more. These links will only work if the Form is in the Open {state}."
           }
         },
         "1": {
           "full": {
             "string": "Veřejné odkazy jsou určeny pro vlastní reportování. Pokud pracujete se sběrači dat, kteří potřebují zaslat stejný formulář vícekrát, {clickHere} pro jiné možnosti.",
-            "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nclick here"
+            "developer_comment": "{clickHere} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nclick here"
           },
           "clickHere": {
             "string": "klikněte zde",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nPublic Links are intended for self-reporting. If you are working with data collectors who need to submit the same Form multiple times, {clickHere} for other options."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {clickHere} is in the following text:\n\nPublic Links are intended for self-reporting. If you are working with data collectors who need to submit the same Form multiple times, {clickHere} for other options."
           }
         }
       },
@@ -3476,15 +3476,15 @@
         "microsoft": {
           "full": {
             "string": "Nápovědu k používání OData s aplikací Power BI naleznete v části  {pageForPowerBi}. Nápovědu k aplikaci Excel naleznete v části {pageForExcel}.",
-            "developer_comment": "The following are separate strings that will be translated below. They will be formatted within ODK Central, for example, they might be bold or a link.\n\n- {pageForExcel} has the text: this page\n- {pageForPowerBi} has the text: this page"
+            "developer_comment": "The following are separate strings that will be translated below. They will be formatted within Conectados, for example, they might be bold or a link.\n\n- {pageForExcel} has the text: this page\n- {pageForPowerBi} has the text: this page"
           },
           "pageForExcel": {
             "string": "této straně",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {pageForExcel} is in the following text:\n\nFor help using OData with Power BI, see {pageForPowerBi}. For help with Excel, see {pageForExcel}."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {pageForExcel} is in the following text:\n\nFor help using OData with Power BI, see {pageForPowerBi}. For help with Excel, see {pageForExcel}."
           },
           "pageForPowerBi": {
             "string": "této straně",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {pageForPowerBi} is in the following text:\n\nFor help using OData with Power BI, see {pageForPowerBi}. For help with Excel, see {pageForExcel}."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {pageForPowerBi} is in the following text:\n\nFor help using OData with Power BI, see {pageForPowerBi}. For help with Excel, see {pageForExcel}."
           }
         },
         "python": {
@@ -3498,11 +3498,11 @@
         "other": {
           "full": {
             "string": "Úplný popis podpory OData naleznete v {article}.",
-            "developer_comment": "{article} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nthis article"
+            "developer_comment": "{article} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nthis article"
           },
           "article": {
             "string": "tomto článku",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {article} is in the following text:\n\nFor a full description of our OData support, please see {article}."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {article} is in the following text:\n\nFor a full description of our OData support, please see {article}."
           }
         }
       }
@@ -3671,51 +3671,51 @@
           "null": {
             "full": {
               "string": "{reviewState} u {name}",
-              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} per {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nReceived"
+              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} per {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nReceived"
             },
             "reviewState": {
               "string": "Přijato",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} per {name}"
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} per {name}"
             }
           },
           "hasIssues": {
             "full": {
               "string": "{reviewState} u {name}",
-              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} per {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nHas Issues"
+              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} per {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nHas Issues"
             },
             "reviewState": {
               "string": "Má problémy",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} per {name}"
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} per {name}"
             }
           },
           "edited": {
             "full": {
               "string": "{reviewState} u {name}",
-              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} by {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nEdited"
+              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} by {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nEdited"
             },
             "reviewState": {
               "string": "Upraveno",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} by {name}"
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} by {name}"
             }
           },
           "approved": {
             "full": {
               "string": "{reviewState} u {name}",
-              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} by {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nApproved"
+              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} by {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nApproved"
             },
             "reviewState": {
               "string": "Schváleno",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} by {name}"
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} by {name}"
             }
           },
           "rejected": {
             "full": {
               "string": "{reviewState} u {name}",
-              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} by {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nRejected"
+              "developer_comment": "This text is shown in the list of actions performed on a Submission. There is an icon before the text that corresponds to the Review State, so it is essential for the Review State to also come first in the translation. If that is unnatural in your language, you can also split the text into two parts. For example, instead of:\n\n{reviewState} by {name}\n\nyou could split it into:\n\n{reviewState} • {name}\n\n{reviewState} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nRejected"
             },
             "reviewState": {
               "string": "Odmítnuto",
-              "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} by {name}"
+              "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {reviewState} is in the following text:\n\n{reviewState} by {name}"
             }
           }
         },
@@ -4012,11 +4012,11 @@
       "introduction": {
         "full": {
           "string": "Po kliknutí na {resetPassword} bude heslo uživatele „{displayName}“ <{email}> okamžitě neplatné. Bude vám zaslán e-mail na {email} s pokyny, jak postupovat.",
-          "developer_comment": "{resetPassword} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nReset password"
+          "developer_comment": "{resetPassword} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nReset password"
         },
         "resetPassword": {
           "string": "Obnovit heslo",
-          "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {resetPassword} is in the following text:\n\nOnce you click {resetPassword} below, the password for the user “{displayName}” <{email}> will be immediately invalidated. An email will be sent to {email} with instructions on how to proceed."
+          "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {resetPassword} is in the following text:\n\nOnce you click {resetPassword} below, the password for the user “{displayName}” <{email}> will be immediately invalidated. An email will be sent to {email} with instructions on how to proceed."
         }
       }
     },
@@ -4032,11 +4032,11 @@
         "1": {
           "full": {
             "string": "{noUndo}, ale pro tuto osobu lze vždy vytvořit nový účet se stejnou e-mailovou adresou.",
-            "developer_comment": "{noUndo} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link. Its text is:\n\nThis action cannot be undone"
+            "developer_comment": "{noUndo} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link. Its text is:\n\nThis action cannot be undone"
           },
           "noUndo": {
             "string": "Tuto akci nelze vrátit zpět",
-            "developer_comment": "This text will be formatted within ODK Central, for example, it might be bold or a link. It will be inserted where {noUndo} is in the following text:\n\n{noUndo}, but a new account can always be created for that person with the same email address."
+            "developer_comment": "This text will be formatted within Conectados, for example, it might be bold or a link. It will be inserted where {noUndo} is in the following text:\n\n{noUndo}, but a new account can always be created for that person with the same email address."
           }
         }
       }

@@ -1,11 +1,11 @@
 <!--
-Copyright 2020 ODK Central Developers
+Copyright 2020 Conectados Developers
 See the NOTICE file at the top-level directory of this distribution and at
 https://github.com/getodk/central-frontend/blob/master/NOTICE.
 
-This file is part of ODK Central. It is subject to the license terms in
+This file is part of Conectados. It is subject to the license terms in
 the LICENSE file found in the top-level directory of this distribution and at
-https://www.apache.org/licenses/LICENSE-2.0. No part of ODK Central,
+https://www.apache.org/licenses/LICENSE-2.0. No part of Conectados,
 including this file, may be copied, modified, propagated, or distributed
 except according to the terms contained in the LICENSE file.
 -->
@@ -55,7 +55,7 @@ export default {
   "en": {
     "disabled": {
       "processing": "Preview has not finished processing for this Form. Please refresh later and try again.",
-      "notOpen": "In this version of ODK Central, preview is only available for Forms in the Open state."
+      "notOpen": "In this version of Conectados, preview is only available for Forms in the Open state."
     }
   }
 }
@@ -67,49 +67,49 @@ export default {
   "cs": {
     "disabled": {
       "processing": "Náhled nedokončil zpracování tohoto formuláře. Aktualizujte prosím později a zkuste to znovu.",
-      "notOpen": "V této verzi ODK Central je náhled k dispozici pouze pro formuláře v otevřeném stavu."
+      "notOpen": "V této verzi Conectados je náhled k dispozici pouze pro formuláře v otevřeném stavu."
     }
   },
   "de": {
     "disabled": {
       "processing": "Die Vorschau für dieses Formular ist noch nicht vollständig erstellt. Bitte aktualieren Sie und versuchen Sie es später noch einmal.",
-      "notOpen": "In dieser Version von ODK Central steht die Vorschau nur für Formule im Zustand \"Offen\" zur Verfügung."
+      "notOpen": "In dieser Version von Conectados steht die Vorschau nur für Formule im Zustand \"Offen\" zur Verfügung."
     }
   },
   "es": {
     "disabled": {
       "processing": "La vista previa no ha finalizado el procesamiento de este formulario. Por favor actualice más tarde e intente nuevamente.",
-      "notOpen": "En esta versión de ODK Central, la vista previa solo está disponible para formularios en estado abierto."
+      "notOpen": "En esta versión de Conectados, la vista previa solo está disponible para formularios en estado abierto."
     }
   },
   "fr": {
     "disabled": {
       "processing": "L'aperçu n'a pas fini d'être exécuté pour ce formulaire. Veuillez rafraîchir plus tard et réessayer.",
-      "notOpen": "Dans cette version d'ODK Central, l'aperçu n'est disponible que pour les formulaires dont l'état est ouvert."
+      "notOpen": "Dans cette version d'Conectados, l'aperçu n'est disponible que pour les formulaires dont l'état est ouvert."
     }
   },
   "id": {
     "disabled": {
       "processing": "Pratinjau untuk formulir ini masih dalam proses pengerjaan. Silakan muat ulang dan coba lagi nanti.",
-      "notOpen": "Pada versi ODK Central ini, pratinjau hanya tersedia untuk formulir dalam kondisi terbuka."
+      "notOpen": "Pada versi Conectados ini, pratinjau hanya tersedia untuk formulir dalam kondisi terbuka."
     }
   },
   "it": {
     "disabled": {
       "processing": "L'anteprima non ha terminato l'elaborazione per questo formulario. Per favore riaggiorna più tardi e riprova.",
-      "notOpen": "In questa versione di ODK Central, l'anteprima è disponibile solo per i formulari nello stato aperto."
+      "notOpen": "In questa versione di Conectados, l'anteprima è disponibile solo per i formulari nello stato aperto."
     }
   },
   "ja": {
     "disabled": {
       "processing": "このフォームのプレビュー処理が終了していません。後ほどページを更新し、もう一度試して下さい。",
-      "notOpen": "このバージョンのODK Centralでは、プレビューは、公開状態のフォームでのみ利用可能です。"
+      "notOpen": "このバージョンのConectadosでは、プレビューは、公開状態のフォームでのみ利用可能です。"
     }
   },
   "sw": {
     "disabled": {
       "processing": "Onyesho la kuchungulia halijamaliza kuchakata Fomu hii. Tafadhali onyesha upya baadaye na ujaribu tena.",
-      "notOpen": "Katika toleo hili la ODK Central, onyesho la kukagua linapatikana kwa Fomu zilizo katika \"OPEN STATE\""
+      "notOpen": "Katika toleo hili la Conectados, onyesho la kukagua linapatikana kwa Fomu zilizo katika \"OPEN STATE\""
     }
   }
 }

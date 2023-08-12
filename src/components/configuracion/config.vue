@@ -10,10 +10,10 @@
       <h3>Formulario: {{ dataFormulario.xmlFormId }}</h3>
       <h5 v-if="msjError != null">{{ msjError }}</h5>
       <input type="text" v-model="totalPermitidos" class="form-control">
-      <button id="user-list-new-button" type="button" class="btn btn-primary" @click="modal(false)">
+      <button id="user-list-new-button" type="button" class="btn btn-primary" @click="modal(false)" style="margin-top: 10px;">
         <span>Cancelar</span>
       </button>
-      <button  type="button" class="btn btn-primary" @click="update()">
+      <button  type="button" class="btn btn-primary" @click="update()" style="margin-left: 10px;margin-top: 10px;">
         <span>Guardar</span>
       </button>
       <br>

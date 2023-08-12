@@ -1,11 +1,11 @@
 <!--
-Copyright 2019 ODK Central Developers
+Copyright 2019 Conectados Developers
 See the NOTICE file at the top-level directory of this distribution and at
 https://github.com/getodk/central-frontend/blob/master/NOTICE.
 
-This file is part of ODK Central. It is subject to the license terms in
+This file is part of Conectados. It is subject to the license terms in
 the LICENSE file found in the top-level directory of this distribution and at
-https://www.apache.org/licenses/LICENSE-2.0. No part of ODK Central,
+https://www.apache.org/licenses/LICENSE-2.0. No part of Conectados,
 including this file, may be copied, modified, propagated, or distributed
 except according to the terms contained in the LICENSE file.
 -->
@@ -151,7 +151,7 @@ export default {
             "full": "Submission data encryption is {enabled} for this Project.",
             "enabled": "enabled"
           },
-          "In this version of ODK Central, you may not disable encryption once it is turned on."
+          "In this version of Conectados, you may not disable encryption once it is turned on."
         ]
       },
       "action": {
@@ -164,7 +164,7 @@ export default {
       },
       "archived": [
         "This Project has been archived.",
-        "In this version of ODK Central, you may not unarchive a Project. However, the ability to unarchive a Project is planned for a future release."
+        "In this version of Conectados, you may not unarchive a Project. However, the ability to unarchive a Project is planned for a future release."
       ]
     },
     "alert": {
@@ -189,7 +189,7 @@ export default {
             "full": "Šifrování dat příspěvků je {enabled} pro tento projekt.",
             "enabled": "povoleno"
           },
-          "V této verzi ODK Central není možné šifrování zakázat, jakmile je zapnuto."
+          "V této verzi Conectados není možné šifrování zakázat, jakmile je zapnuto."
         ]
       },
       "action": {
@@ -202,7 +202,7 @@ export default {
       },
       "archived": [
         "Tento projekt byl archivován.",
-        "V této verzi ODK Central nelze archivovat Projekt. Schopnost vyjmout projekt z archivu je však naplánována na budoucí vydání."
+        "V této verzi Conectados nelze archivovat Projekt. Schopnost vyjmout projekt z archivu je však naplánována na budoucí vydání."
       ]
     },
     "alert": {
@@ -221,7 +221,7 @@ export default {
             "full": "Übermittlungsdatenverschlüsselung ist für dieses Projekt {enabled}.",
             "enabled": "aktiviert"
           },
-          "In dieser Version von ODK Central dürfen Sie die Verschlüsselung nicht mehr deaktivieren nachdem sie aktiviert wurde."
+          "In dieser Version von Conectados dürfen Sie die Verschlüsselung nicht mehr deaktivieren nachdem sie aktiviert wurde."
         ]
       },
       "action": {
@@ -234,7 +234,7 @@ export default {
       },
       "archived": [
         "Dieses Projekt wurde archiviert.",
-        "In dieser Version von ODK Central dürfen Sie ein Projekt nicht dearchivieren. Jedoch ist die Funktion zum Dearchivieren eines Projekts für eine zukünftige Version geplant."
+        "In dieser Version von Conectados dürfen Sie ein Projekt nicht dearchivieren. Jedoch ist die Funktion zum Dearchivieren eines Projekts für eine zukünftige Version geplant."
       ]
     },
     "alert": {
@@ -253,7 +253,7 @@ export default {
             "full": "El cifrado de datos de los envíos está {enabled} para este proyecto.",
             "enabled": "activado"
           },
-          "En esta versión de ODK Central, no podrá desactivar el cifrado una vez haya sido activada."
+          "En esta versión de Conectados, no podrá desactivar el cifrado una vez haya sido activada."
         ]
       },
       "action": {
@@ -266,7 +266,7 @@ export default {
       },
       "archived": [
         "Este proyecto ha sido archivado.",
-        "En esta versión de ODK Central, no podrá desarchivar proyectos. No obstante, dicha funcionalidad está planeada para futuros desarrollos."
+        "En esta versión de Conectados, no podrá desarchivar proyectos. No obstante, dicha funcionalidad está planeada para futuros desarrollos."
       ]
     },
     "alert": {
@@ -285,7 +285,7 @@ export default {
             "full": "Le chiffrement des données de soumission est {enabled} pour ce projet.",
             "enabled": "Activé"
           },
-          "Dans cette version d'ODK Central, vous ne pouvez pas désactiver le chiffrement une fois qu'il est activé."
+          "Dans cette version d'Conectados, vous ne pouvez pas désactiver le chiffrement une fois qu'il est activé."
         ]
       },
       "action": {
@@ -298,7 +298,7 @@ export default {
       },
       "archived": [
         "Le projet a été archivé.",
-        "Dans cette version d'ODK Central, vous ne pouvez pas désarchiver un projet. Cependant, la possibilité de désarchiver un projet est prévue pour une prochaine version."
+        "Dans cette version d'Conectados, vous ne pouvez pas désarchiver un projet. Cependant, la possibilité de désarchiver un projet est prévue pour une prochaine version."
       ]
     },
     "alert": {
@@ -317,7 +317,7 @@ export default {
             "full": "Enkripsi kiriman data {enabled} di Proyek ini.",
             "enabled": "diaktifkan"
           },
-          "Pada versi ODK Central sekarang, Anda tidak dapat menonaktifkan enkripsi setelah enkripsi diaktifkan."
+          "Pada versi Conectados sekarang, Anda tidak dapat menonaktifkan enkripsi setelah enkripsi diaktifkan."
         ]
       },
       "action": {
@@ -330,7 +330,7 @@ export default {
       },
       "archived": [
         "Proyek ini telah diarsipkan.",
-        "Pada versi ODK Central sekarang, Anda tidak dapat membatalkan pengarsipan sebuah Proyek. Namun, pilihan untuk membantalkan pengarsipan sebuah Proyek telah direncanakan untuk versi mendatang."
+        "Pada versi Conectados sekarang, Anda tidak dapat membatalkan pengarsipan sebuah Proyek. Namun, pilihan untuk membantalkan pengarsipan sebuah Proyek telah direncanakan untuk versi mendatang."
       ]
     },
     "alert": {
@@ -349,7 +349,7 @@ export default {
             "full": "La crittografia dei dati di invio è {enabled} per questo progetto.",
             "enabled": "abilitato"
           },
-          "In questa versione di ODK Central, non puoi disabilitare la crittografia una volta attivata."
+          "In questa versione di Conectados, non puoi disabilitare la crittografia una volta attivata."
         ]
       },
       "action": {
@@ -362,7 +362,7 @@ export default {
       },
       "archived": [
         "Il Progetto è stato archiviato",
-        "In questa versione di ODK Central, non puoi annullare l'archiviazione di un progetto. Tuttavia, la possibilità di annullare l'archiviazione di un progetto è prevista per una versione futura."
+        "In questa versione di Conectados, non puoi annullare l'archiviazione di un progetto. Tuttavia, la possibilità di annullare l'archiviazione di un progetto è prevista per una versione futura."
       ]
     },
     "alert": {
@@ -381,7 +381,7 @@ export default {
             "full": "このプロジェクトの提出されたフォームの暗号化は、{enabled}",
             "enabled": "有効にされています。"
           },
-          "このバージョンのODK Centralでは、一度有効にされた暗号化は無効にできません。"
+          "このバージョンのConectadosでは、一度有効にされた暗号化は無効にできません。"
         ]
       },
       "action": {
@@ -394,7 +394,7 @@ export default {
       },
       "archived": [
         "このプロジェクトはアーカイブされました。",
-        "このバージョンのODK Centralでは、プロジェクトの非アーカイブ化はできません。プロジェクトの非アーカイブ機能は将来的にリリースされる予定です。"
+        "このバージョンのConectadosでは、プロジェクトの非アーカイブ化はできません。プロジェクトの非アーカイブ機能は将来的にリリースされる予定です。"
       ]
     },
     "alert": {
@@ -413,7 +413,7 @@ export default {
             "full": "Usimbaji fiche wa data ya uwasilishaji {enabled} kwa Mradi huu.",
             "enabled": "imewezeshwa"
           },
-          "Katika toleo hili la ODK Central, huwezi kuzima usimbaji fiche mara tu inapowashwa."
+          "Katika toleo hili la Conectados, huwezi kuzima usimbaji fiche mara tu inapowashwa."
         ]
       },
       "action": {
@@ -426,7 +426,7 @@ export default {
       },
       "archived": [
         "Mradi huu umewekwa kwenye kumbukumbu.",
-        "Katika toleo hili la ODK Central, unaweza usiondoe Mradi kwenye kumbukumbu. Hata hivyo, uwezo wa kufuta Mradi umepangwa kwa ajili ya kutolewa siku zijazo."
+        "Katika toleo hili la Conectados, unaweza usiondoe Mradi kwenye kumbukumbu. Hata hivyo, uwezo wa kufuta Mradi umepangwa kwa ajili ya kutolewa siku zijazo."
       ]
     },
     "alert": {

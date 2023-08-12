@@ -37,7 +37,7 @@ describe('EnketoPreview', () => {
         props: { formVersion: form }
       });
       button.element.tagName.should.equal('BUTTON');
-      button.should.have.ariaDescription('In this version of ODK Central, preview is only available for Forms in the Open state.');
+      button.should.have.ariaDescription('In this version of Conectados, preview is only available for Forms in the Open state.');
       await button.should.have.tooltip();
     });
 

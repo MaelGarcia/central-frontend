@@ -988,82 +988,82 @@ describe('createCentralRouter()', () => {
     // which are handled in other test files.
     it('shows static homepage title for route /', async () => {
       await load('/');
-      document.title.should.equal('Projects | ODK Central');
+      document.title.should.equal('Projects | Conectados');
     });
 
     // Project routes
     it('inspects title before and after project data loaded', () =>
       load('/projects/1')
         .beforeAnyResponse(() => {
-          document.title.should.equal('ODK Central');
+          document.title.should.equal('Conectados');
         })
         .afterResponses(() => {
-          document.title.should.equal('My Project Name | ODK Central');
+          document.title.should.equal('My Project Name | Conectados');
         }));
 
     it('shows project name in title for /projects/1/user', async () => {
       await load('/projects/1/users');
-      document.title.should.equal('Project Roles | My Project Name | ODK Central');
+      document.title.should.equal('Project Roles | My Project Name | Conectados');
     });
 
     it('shows project name in title for /projects/1/app-users', async () => {
       await load('/projects/1/app-users');
-      document.title.should.equal('App Users | My Project Name | ODK Central');
+      document.title.should.equal('App Users | My Project Name | Conectados');
     });
 
     it('shows project name in title for /projects/1/form-access', async () => {
       await load('/projects/1/form-access');
-      document.title.should.equal('Form Access | My Project Name | ODK Central');
+      document.title.should.equal('Form Access | My Project Name | Conectados');
     });
 
     it('shows project name in title for /projects/1/datasets', async () => {
       await load('/projects/1/datasets');
-      document.title.should.equal('Datasets | My Project Name | ODK Central');
+      document.title.should.equal('Datasets | My Project Name | Conectados');
     });
 
     it('shows project name in title for /projects/1/settings', async () => {
       await load('/projects/1/settings');
-      document.title.should.equal('Settings | My Project Name | ODK Central');
+      document.title.should.equal('Settings | My Project Name | Conectados');
     });
 
     // Special cases of project routes
     it('does not show project name if null for /projects/1', async () => {
       testData.extendedProjects.createPast(1, { name: null });
       await load('/projects/2');
-      document.title.should.equal('ODK Central');
+      document.title.should.equal('Conectados');
     });
 
     // Form routes
     it('shows form name in title for <form url>/', async () => {
       await load('/projects/1/forms/f1');
-      document.title.should.equal('My Form Name | ODK Central');
+      document.title.should.equal('My Form Name | Conectados');
     });
 
     it('shows form name in title for <form url>/versions', async () => {
       await load('/projects/1/forms/f1/versions');
-      document.title.should.equal('Versions | My Form Name | ODK Central');
+      document.title.should.equal('Versions | My Form Name | Conectados');
     });
 
     it('shows form name in title for <form url>/submissions', async () => {
       await load('/projects/1/forms/f1/submissions');
-      document.title.should.equal('Submissions | My Form Name | ODK Central');
+      document.title.should.equal('Submissions | My Form Name | Conectados');
     });
 
     it('shows form name in title for <form url>/public-links', async () => {
       await load('/projects/1/forms/f1/public-links');
-      document.title.should.equal('Public Access | My Form Name | ODK Central');
+      document.title.should.equal('Public Access | My Form Name | Conectados');
     });
 
     it('shows form name in title for <form url>/settings', async () => {
       await load('/projects/1/forms/f1/settings');
-      document.title.should.equal('Settings | My Form Name | ODK Central');
+      document.title.should.equal('Settings | My Form Name | Conectados');
     });
 
     // Draft form routes
     it('shows form name in title for <form url>/draft', async () => {
       testData.extendedForms.createPast(1, { xmlFormId: 'f2', name: 'My Draft Form', draft: true });
       await load('/projects/1/forms/f2/draft');
-      document.title.should.equal('Status | My Draft Form | ODK Central');
+      document.title.should.equal('Status | My Draft Form | Conectados');
     });
 
     it('shows form name in title for <form url>/draft/attachments', async () => {
@@ -1071,43 +1071,43 @@ describe('createCentralRouter()', () => {
       testData.standardFormAttachments.createPast(1, { form: testData.extendedForms.last() });
       await load('/projects/1/forms/f2/draft/attachments')
         .respondWithData(() => testData.extendedDatasets.sorted());
-      document.title.should.equal('Form Attachments | My Draft Form | ODK Central');
+      document.title.should.equal('Form Attachments | My Draft Form | Conectados');
     });
 
     it('shows form name in title for <form url>/draft/testing', async () => {
       testData.extendedForms.createPast(1, { xmlFormId: 'f2', name: 'My Draft Form', draft: true });
       await load('/projects/1/forms/f2/draft/testing');
-      document.title.should.equal('Testing | My Draft Form | ODK Central');
+      document.title.should.equal('Testing | My Draft Form | Conectados');
     });
 
     // Special cases of form routes
     it('shows form id when form has no name', async () => {
       testData.extendedForms.createPast(1, { xmlFormId: 'my-xml-id', name: null });
       await load('/projects/1/forms/my-xml-id');
-      document.title.should.equal('my-xml-id | ODK Central');
+      document.title.should.equal('my-xml-id | Conectados');
     });
 
     // Submission routes
     it('shows submission uuid', async () => {
       testData.extendedSubmissions.createPast(1, { instanceId: 's' });
       await load('/projects/1/forms/f1/submissions/s');
-      document.title.should.equal('Details: s | ODK Central');
+      document.title.should.equal('Details: s | Conectados');
     });
 
     // Dataset routes
     it('shows dataset name in title for /projects/1/datasets/:datasetName', async () => {
       await load('/projects/1/datasets/trees');
-      document.title.should.equal('trees | ODK Central');
+      document.title.should.equal('trees | Conectados');
     });
 
     it('shows dataset name in title for /projects/1/datasets/:datasetName/entities', async () => {
       await load('/projects/1/datasets/trees/entities');
-      document.title.should.equal('Data | trees | ODK Central');
+      document.title.should.equal('Data | trees | Conectados');
     });
 
     it('shows dataset name in title for /projects/1/datasets/:datasetName/settings', async () => {
       await load('/projects/1/datasets/trees/settings');
-      document.title.should.equal('Settings | trees | ODK Central');
+      document.title.should.equal('Settings | trees | Conectados');
     });
 
     // Entity routes
@@ -1117,43 +1117,43 @@ describe('createCentralRouter()', () => {
         label: 'My Entity'
       });
       await load('/projects/1/datasets/trees/entities/e');
-      document.title.should.equal('My Entity | ODK Central');
+      document.title.should.equal('My Entity | Conectados');
     });
 
     // User routes
     it('shows static title for /users', async () => {
       await load('/users');
-      document.title.should.equal('Web Users | ODK Central');
+      document.title.should.equal('Web Users | Conectados');
     });
 
     it('shows user name in title for /users/1/edit', async () => {
       testData.extendedUsers.createPast(1, { displayName: 'A User Name' });
       await load('/users/1/edit');
-      document.title.should.equal('A User Name | ODK Central');
+      document.title.should.equal('A User Name | Conectados');
     });
 
     it('shows static title for /account/edit', async () => {
       await load('/account/edit');
-      document.title.should.equal('Edit Profile | ODK Central');
+      document.title.should.equal('Edit Profile | Conectados');
     });
 
     // System Management routes
 
     it('shows static title for /system/audits', async () => {
       await load('/system/audits');
-      document.title.should.equal('Server Audit Logs | System Management | ODK Central');
+      document.title.should.equal('Server Audit Logs | System Management | Conectados');
     });
 
     it('shows static title for /system/analytics', async () => {
       await load('/system/analytics');
       const { title } = document;
-      title.should.equal('Usage Reporting | System Management | ODK Central');
+      title.should.equal('Usage Reporting | System Management | Conectados');
     });
 
     // General special cases
     it('shows Page Not Found title', async () => {
       await load('/this-route-does-not-exist');
-      document.title.should.equal('Page Not Found | ODK Central');
+      document.title.should.equal('Page Not Found | Conectados');
     });
   });
 
@@ -1162,7 +1162,7 @@ describe('createCentralRouter()', () => {
       load('/login')
         .restoreSession(false)
         .afterResponses(() => {
-          document.title.should.equal('Log in | ODK Central');
+          document.title.should.equal('Log in | Conectados');
         }));
   });
 

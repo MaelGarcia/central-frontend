@@ -364,7 +364,7 @@ const generateCommentsForFull = (messages) => {
   const comments = { full: '' };
 
   const commentOnChildNode = (node, expandedMessage) => {
-    comments[node.key] = 'This text will be formatted within ODK Central, for example, it might be bold or a link. ';
+    comments[node.key] = 'This text will be formatted within Conectados, for example, it might be bold or a link. ';
     comments[node.key] += rootNode.pluralForms.length === 1
       ? `It will be inserted where {${node.key}} is in the following text:`
       // Showing the plural form instead of the singular, because that is what
@@ -392,7 +392,7 @@ const generateCommentsForFull = (messages) => {
     if (node.childNodes.length === 1 && !node.childNodes[0].hasChildNodes()) {
       const childNode = node.childNodes[0];
       comments[node.key] += node.parentNode == null
-        ? `{${childNode.key}} is a separate string that will be translated below. Its text will be formatted within ODK Central, for example, it might be bold or a link.`
+        ? `{${childNode.key}} is a separate string that will be translated below. Its text will be formatted within Conectados, for example, it might be bold or a link.`
         : `Note that {${childNode.key}} is a separate string that will be translated below.`;
       comments[node.key] += ' ';
       comments[node.key] += childNode.pluralForms.length === 1
@@ -400,7 +400,7 @@ const generateCommentsForFull = (messages) => {
         : `In its plural form, its text is:\n\n${childNode.pluralForms[1]}`;
     } else {
       comments[node.key] += node.parentNode == null
-        ? 'The following are separate strings that will be translated below. They will be formatted within ODK Central, for example, they might be bold or a link.'
+        ? 'The following are separate strings that will be translated below. They will be formatted within Conectados, for example, they might be bold or a link.'
         : 'Note that the following are separate strings that will be translated below:';
       comments[node.key] += '\n';
       node.visitDescendants(descendant => {

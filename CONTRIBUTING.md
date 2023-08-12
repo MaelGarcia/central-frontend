@@ -1,29 +1,29 @@
 <!--
-Copyright 2019 ODK Central Developers
+Copyright 2019 Conectados Developers
 See the NOTICE file at the top-level directory of this distribution and at
 https://github.com/getodk/central-frontend/blob/master/NOTICE.
 
-This file is part of ODK Central. It is subject to the license terms in
+This file is part of Conectados. It is subject to the license terms in
 the LICENSE file found in the top-level directory of this distribution and at
-https://www.apache.org/licenses/LICENSE-2.0. No part of ODK Central,
+https://www.apache.org/licenses/LICENSE-2.0. No part of Conectados,
 including this file, may be copied, modified, propagated, or distributed
 except according to the terms contained in the LICENSE file.
 -->
-# Contributing to ODK Central Frontend
+# Contributing to Conectados Frontend
 
-We want ODK Central Frontend to be easy to use, yet flexible for a wide variety of projects and organizations. To do that, we need your help!
+We want Conectados Frontend to be easy to use, yet flexible for a wide variety of projects and organizations. To do that, we need your help!
 
 ## Questions and Discussion
 
 If you are looking for help, please take a look at the [Documentation Website](https://docs.getodk.org/central-intro/). If that doesn't solve your problem, please head over to the [ODK Forum](https://forum.getodk.org/) and do a search to see if anybody else has had the same problem. If you've identified a new problem, please post on the forum. We prefer forum posts to GitHub issues because more of the community is on the forum.
 
-If you have suggestions about how to improve ODK Central, please share them with us on the [Features board](https://forum.getodk.org/c/features) of the ODK Forum.
+If you have suggestions about how to improve Conectados, please share them with us on the [Features board](https://forum.getodk.org/c/features) of the ODK Forum.
 
-If you are looking for help on how ODK Central works internally or how to update its code, the ODK [developer Slack](https://slack.getodk.org/) is for you.
+If you are looking for help on how Conectados works internally or how to update its code, the ODK [developer Slack](https://slack.getodk.org/) is for you.
 
 ## Contributing Translations
 
-If you know a language other than English, consider contributing translations through Transifex. For more information, please see the [ODK Central Translation Guide](https://docs.google.com/document/d/1C0MS_ytAEBHwbMkdR-QrtDrWAAh_EkJo2QRr4XyIOpk).
+If you know a language other than English, consider contributing translations through Transifex. For more information, please see the [Conectados Translation Guide](https://docs.google.com/document/d/1C0MS_ytAEBHwbMkdR-QrtDrWAAh_EkJo2QRr4XyIOpk).
 
 ## Contributing Code
 
@@ -54,7 +54,7 @@ We use Vue.js along with Vue Router, Vuex, and Vue CLI.
 
 ### jQuery
 
-ODK Central Frontend uses jQuery in limited ways.
+Conectados Frontend uses jQuery in limited ways.
 
 Wherever possible, we try to use Vue instead of jQuery. Vue will not always know about or respect changes that jQuery makes to the DOM, and using jQuery can add complexity to a component.
 
@@ -62,7 +62,7 @@ That said, we make use of some of Bootstrap's jQuery plugins. We may replace tho
 
 ### Bootstrap
 
-ODK Central Frontend uses Bootstrap 3.
+Conectados Frontend uses Bootstrap 3.
 
 Frontend's [global styles](/src/assets/scss/app.scss) override some of Bootstrap's, as do the styles of Frontend components that correspond to a Bootstrap component (for example, `Modal`). However, we tend to stick pretty closely to Bootstrap, and you should be able to use many of Bootstrap's examples with only small changes. If you are creating a new component that is similar to an existing Frontend component, you may find it useful to base the new component off the existing one.
 
@@ -84,7 +84,7 @@ We use axios to send requests. We set `Vue.prototype.$http` to `axios`, so compo
 
 ### Presenter Classes
 
-Many ODK Central Backend resources have an associated presenter class in Frontend ([`/src/presenters/`](/src/presenters/)). This class extends the [base presenter class](/src/presenters/base.js).
+Many Conectados Backend resources have an associated presenter class in Frontend ([`/src/presenters/`](/src/presenters/)). This class extends the [base presenter class](/src/presenters/base.js).
 
 Each presenter class defines a whitelist of properties that the presenter object can read from the underlying resource data. If a new property is added to a Backend resource, it must also be added to the presenter class before a presenter object can read it.
 
@@ -157,7 +157,7 @@ We use the [`Alert`](/src/components/alert.vue) component to render an alert. On
 
 We use the Vue I18n plugin for internationalization. The plugin is configured in [`/src/i18n.js`](/src/i18n.js) and [`vue.config.js`](/vue.config.js).
 
-ODK Central Frontend uses the translations stored in [`/src/locales/`](/src/locales/): there is a JSON file for each locale. The base name of each file must be a BCP 47 language tag, because we use the name to set the `lang` attribute of the `<html>` element. `en` is the fallback locale, and [`en.json5`](/src/locales/en.json5) is bundled with Frontend; other files are loaded asynchronously as needed. We also make ample use of single file component `i18n` custom blocks.
+Conectados Frontend uses the translations stored in [`/src/locales/`](/src/locales/): there is a JSON file for each locale. The base name of each file must be a BCP 47 language tag, because we use the name to set the `lang` attribute of the `<html>` element. `en` is the fallback locale, and [`en.json5`](/src/locales/en.json5) is bundled with Frontend; other files are loaded asynchronously as needed. We also make ample use of single file component `i18n` custom blocks.
 
 We also define internationalization-related utilities in [`/src/util/i18n.js`](/src/util/i18n.js).
 
@@ -230,7 +230,7 @@ For more background on Transifex, see these articles:
 
 #### Adding a New Locale
 
-To add a new locale to ODK Central Frontend:
+To add a new locale to Conectados Frontend:
 
 1. Add the locale to Transifex.
 2. Add the locale to `locales` in [`/src/i18n.js`](/src/i18n.js) and [`/bin/util/transifex.js`](/bin/util/transifex.js).
@@ -242,7 +242,7 @@ Note that right now, the router will use the user's preferred language to load t
 
 ### Styles
 
-ODK Central Frontend uses Sass.
+Conectados Frontend uses Sass.
 
 Frontend implements a set of [global styles](/src/assets/scss/app.scss). Beyond that, we use Vue single file components, so you will find a component's styles in the same file as its HTML and JavaScript.
 
@@ -281,7 +281,7 @@ Here are a few screenshots of the IcoMoon interface from March 2021:
 
 ### Standard Actions
 
-Certain actions are standardized across ODK Central Frontend.
+Certain actions are standardized across Conectados Frontend.
 
 #### Standard Button Things
 
@@ -341,7 +341,7 @@ it.only('does something', () => {
 
 #### Test Data
 
-We generate and store test data specific to ODK Central using the [`testData`](/test/data/index.js) object, which uses faker.js. `testData` will persist data until the end of a test and can be thought of as a mock of ODK Central Backend and its database.
+We generate and store test data specific to Conectados using the [`testData`](/test/data/index.js) object, which uses faker.js. `testData` will persist data until the end of a test and can be thought of as a mock of Conectados Backend and its database.
 
 `testData` defines a "store" for each Backend resource. For example, `testData.extendedProjects` is a store that generates and stores projects. A store can also be associated with one or more "views," each of which represents a way to format the data and will transform the data in the store. For example, `testData.extendedProjects` is the canonical store of projects, and the objects it generates have extended metadata properties; `testData.standardProjects` is a view onto that store and transforms the objects in the store by removing their extended metadata properties.
 
