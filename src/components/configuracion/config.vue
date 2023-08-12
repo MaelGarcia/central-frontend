@@ -79,7 +79,8 @@ export default {
     },
     update(){
       if(this.totalPermitidos <= 0){ return this.msjError = "El valor debe ser mayor a 0" }
-      axios.get(`https://greatdevservice.ddns.net/v1/users/formularios/${this.dataFormulario.id}/${this.totalPermitidos}`) 
+      let ruta = this.dataFormulario.permitidos >=1 ? `https://greatdevservice.ddns.net/v1/users/formularios/${this.dataFormulario.id}/${this.totalPermitidos}`: `https://greatdevservice.ddns.net/v1/users/formulariosNuevo/${this.dataFormulario.id}/${this.totalPermitidos}`;
+      axios.get(ruta) 
       .then(response => 
       (
         console.log("update"),
