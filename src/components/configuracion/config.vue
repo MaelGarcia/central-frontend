@@ -9,13 +9,17 @@
     <div v-if="estatusmodal">
       <h3>Formulario: {{ dataFormulario.xmlFormId }}</h3>
       <h1 v-if="msjError != null">{{ msjError }}</h1>
-      <input type="text" v-model="dataFormulario.permitidos" class="form-control">
+      <input type="text" v-model="totalPermitidos" class="form-control">
       <button id="user-list-new-button" type="button" class="btn btn-primary" @click="modal(false)">
         <span>Cancelar</span>
       </button>
-      <button  type="button" class="btn btn-primary" @click="guardar()">
+      <br>
+      <button  type="button" class="btn btn-primary" @click="update()">
         <span>Guardar</span>
       </button>
+      <br>
+      <br>
+      <br>
     </div>
     <table id="user-list-table" class="table">
       <thead>
@@ -53,6 +57,7 @@ export default {
       listaFormularios:[],
       dataFormulario:{},
       msjError:null,
+      totalPermitidos:0
     };
   },
   mounted() {
@@ -70,11 +75,12 @@ export default {
       this.dataFormulario = {}
       this.modal(true);
       this.dataFormulario = params
+      this.totalPermitidos = params.permitidos
       this.msjError = null
     },
     update(){
       if(this.dataFormulario.permitidos <= 0){ return this.msjError = "El valor debe ser mayor a 0" }
-      axios.get(`https://greatdevservice.ddns.net/v1/users/formularios/${this.dataFormulario.id}/${this.dataFormulario.permitidos}`) 
+      axios.get(`https://greatdevservice.ddns.net/v1/users/formularios/${this.dataFormulario.id}/${this.totalPermitidos}`) 
       .then(response => 
       (
         console.log("update"),
@@ -82,7 +88,9 @@ export default {
         this.dataFormulario = {},
         this.modal(false),
         this.dataFormulario = {},
-        this.msjError = null
+        this.msjError = null,
+        this.totalPermitidos = 0,
+        this.fetchData()
       
       ))
     },
