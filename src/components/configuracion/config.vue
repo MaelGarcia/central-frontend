@@ -8,12 +8,11 @@
     </div>
     <div v-if="estatusmodal">
       <h3>Formulario: {{ dataFormulario.xmlFormId }}</h3>
-      <h1 v-if="msjError != null">{{ msjError }}</h1>
+      <h5 v-if="msjError != null">{{ msjError }}</h5>
       <input type="text" v-model="totalPermitidos" class="form-control">
       <button id="user-list-new-button" type="button" class="btn btn-primary" @click="modal(false)">
         <span>Cancelar</span>
       </button>
-      <br>
       <button  type="button" class="btn btn-primary" @click="update()">
         <span>Guardar</span>
       </button>
@@ -79,7 +78,7 @@ export default {
       this.msjError = null
     },
     update(){
-      if(this.dataFormulario.permitidos <= 0){ return this.msjError = "El valor debe ser mayor a 0" }
+      if(this.totalPermitidos <= 0){ return this.msjError = "El valor debe ser mayor a 0" }
       axios.get(`https://greatdevservice.ddns.net/v1/users/formularios/${this.dataFormulario.id}/${this.totalPermitidos}`) 
       .then(response => 
       (
