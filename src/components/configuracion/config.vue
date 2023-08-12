@@ -68,7 +68,7 @@ export default {
     },
     editar(params){
       this.dataFormulario = {}
-      this.modal = true;
+      this.modal(true);
       this.dataFormulario = params
       this.msjError = null
     },
@@ -80,7 +80,7 @@ export default {
         console.log("update"),
         console.log(response.data),
         this.dataFormulario = {},
-        this.modal = false,
+        this.modal(false),
         this.dataFormulario = {},
         this.msjError = null
       
